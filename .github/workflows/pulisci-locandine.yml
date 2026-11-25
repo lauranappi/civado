@@ -1,0 +1,15 @@
+name: Cancella locandine Night Life
+on:
+  schedule:
+    - cron: "30 18 * * 4"   # ogni giovedì, circa 19:30 in Italia: dopo la lettura le immagini vengono cancellate
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  pulisci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancella il ramo con le locandine, se esiste
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X DELETE repos/${{ github.repository }}/git/refs/heads/locandine-night-life || echo "Nessun ramo da cancellare"
