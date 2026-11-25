@@ -3,12 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
 <title>Ci Vado · Bergamo, stasera e oltre</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#F3F1EC;--card:#fff;--ink:#15171F;--mute:#5C5F6B;--line:#DDD9CF;--acc:#D13A22;--onacc:#fff;--panel:#15171F;--onpanel:#F3F1EC;--okfg:#1F6B3A;--okbg:#E3F3E8;--tbfg:#7A4B00;--tbbg:#FBE9C3}
-[data-theme=night]{--bg:#0E1020;--card:#171A2E;--ink:#F2F1FA;--mute:#A3A6C2;--line:#2A2E4A;--acc:#FF6A4D;--onacc:#14161F;--panel:#1F2344;--onpanel:#F2F1FA;--okfg:#7BE0A0;--okbg:#14362A;--tbfg:#FFC95C;--tbbg:#3A2F12}
+@media (prefers-color-scheme:dark){:root{--bg:#0E1020;--card:#171A2E;--ink:#F2F1FA;--mute:#A3A6C2;--line:#2A2E4A;--acc:#FF6A4D;--onacc:#14161F;--panel:#1F2344;--onpanel:#F2F1FA;--okfg:#7BE0A0;--okbg:#14362A;--tbfg:#FFC95C;--tbbg:#3A2F12}}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.45;-webkit-font-smoothing:antialiased}
@@ -96,7 +97,6 @@ footer span:first-child{max-width:660px}
     Ci Vado
   </a>
   <nav class="nav" aria-label="Principale">
-    <button class="pill" id="theme" aria-pressed="false">Modalità Night</button>
     <button class="pill acc" id="add">Aggiungi un evento</button>
   </nav>
 </header>
@@ -178,8 +178,8 @@ function evidenza(id){
 }
 const LS="civado_v2";
 let user=[],going=[],state={cat:"all",when:"all",q:""};
-try{const d=JSON.parse(localStorage.getItem(LS)||"{}");user=d.user||[];going=d.going||[];if(d.theme)document.documentElement.dataset.theme=d.theme}catch(e){}
-function save(){try{localStorage.setItem(LS,JSON.stringify({user,going,theme:document.documentElement.dataset.theme||""}))}catch(e){}}
+try{const d=JSON.parse(localStorage.getItem(LS)||"{}");user=d.user||[];going=d.going||[];}catch(e){}
+function save(){try{localStorage.setItem(LS,JSON.stringify({user,going}))}catch(e){}}
 const iso=d=>d.toISOString().slice(0,10);
 const today=iso(new Date());
 const MON=["GEN","FEB","MAR","APR","MAG","GIU","LUG","AGO","SET","OTT","NOV","DIC"];
@@ -259,10 +259,7 @@ document.getElementById("form").onsubmit=async ev=>{
   user.push({id:"u"+Date.now(),title:f.title,cat:f.cat,start:f.start,end:f.end||"",place:f.place,url:f.url,desc:f.desc,mine:true});
   save();ev.target.reset();ov.classList.remove("on");render();
 };
-const th=document.getElementById("theme");
-function syncTheme(){const n=document.documentElement.dataset.theme==="night";th.setAttribute("aria-pressed",n);th.textContent=n?"Modalità Day":"Modalità Night"}
-th.onclick=()=>{document.documentElement.dataset.theme=document.documentElement.dataset.theme==="night"?"":"night";save();syncTheme()};
-syncTheme();render();
+render();
 fetch("eventi.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{SEED=d.eventi||[];AGG=d.aggiornato||"";if(d.evidenza)evidenza(d.evidenza);const f=document.getElementById("agg");if(f&&AGG)f.textContent="Ultimo aggiornamento: "+new Date(AGG+"T12:00:00").toLocaleDateString("it-IT",{day:"numeric",month:"long",year:"numeric"});render()}).catch(()=>{document.getElementById("count").textContent="Impossibile caricare gli eventi"});
 </script>
 </body>
