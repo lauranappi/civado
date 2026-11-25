@@ -164,7 +164,7 @@ footer span:first-child{max-width:660px}
 <script>
 const CATS=[["mostre","Mostre","#D13A22"],["corsi","Corsi e incontri","#2F6FDE"],["ragazzi","Ragazzi e famiglie","#1F8A4C"],["spettacoli","Spettacoli e musica","#8A4FD6"],["serate","Serate","#C98A00"],["feste","Feste e mercatini","#D6458E"]];
 let SEED=[],AGG="";
-const SEGNALAZIONI_URL="";// indirizzo del Worker (vedi worker/README.md); se vuoto il modulo salva solo nel browser
+const SEGNALAZIONI_URL="https://civado-segnalazioni.laura-nappi99.workers.dev/";// indirizzo del Worker (vedi worker/README.md); se vuoto il modulo salva solo nel browser
 const LONG=["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"];
 const dl=s=>{const [y,m,d]=s.split("-");return +d+" "+LONG[+m-1]+" "+y};
 function evidenza(id){
