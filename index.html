@@ -114,11 +114,11 @@ footer span:first-child{max-width:660px}
   </div>
   <aside class="feat" aria-label="In evidenza">
     <svg class="rings" width="520" height="520" viewBox="0 0 520 520" fill="none" aria-hidden="true"><circle cx="260" cy="260" r="250" stroke="var(--acc)" stroke-opacity=".55" stroke-width="2"/><circle cx="260" cy="260" r="190" stroke="var(--acc)" stroke-opacity=".4" stroke-width="2"/><circle cx="260" cy="260" r="130" stroke="var(--acc)" stroke-opacity=".28" stroke-width="2"/><circle cx="260" cy="260" r="70" fill="var(--acc)" fill-opacity=".9"/></svg>
-    <div class="kick"><i></i>In evidenza · mostra</div>
+    <div class="kick" id="fk"><i></i>In evidenza · mostra</div>
     <div>
-      <h2>Chiara Camoni.<br>La Forza</h2>
-      <p>Accademia Carrara, Bergamo<br>fino al 31 dicembre 2026</p>
-      <a href="https://www.arte.it/calendario-arte/bergamo/2026/12/05/" target="_blank" rel="noopener">Vedi la fonte ↗</a>
+      <h2 id="ft">Chiara Camoni.<br>La Forza</h2>
+      <p id="fp">Accademia Carrara, Bergamo<br>fino al 31 dicembre 2026</p>
+      <a id="fa" href="https://www.arte.it/calendario-arte/bergamo/2026/12/05/" target="_blank" rel="noopener">Vedi la fonte ↗</a>
     </div>
   </aside>
 </section>
@@ -147,6 +147,7 @@ footer span:first-child{max-width:660px}
 <div class="ov" id="ov" role="dialog" aria-modal="true" aria-labelledby="mt">
   <form class="modal" id="form">
     <h2 id="mt">Nuovo evento</h2>
+    <label style="position:absolute;left:-9999px" aria-hidden="true">Non compilare<input name="sito" tabindex="-1" autocomplete="off"></label>
     <label>Titolo<input name="title" required></label>
     <label>Categoria<select name="cat" id="catSel"></select></label>
     <div class="two">
@@ -163,6 +164,18 @@ footer span:first-child{max-width:660px}
 <script>
 const CATS=[["mostre","Mostre","#D13A22"],["corsi","Corsi e incontri","#2F6FDE"],["ragazzi","Ragazzi e famiglie","#1F8A4C"],["spettacoli","Spettacoli e musica","#8A4FD6"],["serate","Serate","#C98A00"],["feste","Feste e mercatini","#D6458E"]];
 let SEED=[],AGG="";
+const SEGNALAZIONI_URL="";// indirizzo del Worker (vedi worker/README.md); se vuoto il modulo salva solo nel browser
+const LONG=["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"];
+const dl=s=>{const [y,m,d]=s.split("-");return +d+" "+LONG[+m-1]+" "+y};
+function evidenza(id){
+  const e=SEED.find(x=>x.id===id);if(!e)return;
+  const c=CATS.find(x=>x[0]===e.cat);
+  document.getElementById("fk").lastChild.textContent="In evidenza · "+(c?c[1].toLowerCase():"evento");
+  document.getElementById("ft").textContent=e.title;
+  const q=document.getElementById("fp");q.textContent="";q.append(document.createTextNode(e.place),document.createElement("br"));
+  q.append(document.createTextNode(!e.start?"date da confermare":(e.end&&e.start<=today?"fino al "+dl(e.end):(e.end?"dal "+dl(e.start)+" al "+dl(e.end):dl(e.start)))));
+  const a=document.getElementById("fa");if(e.url){a.href=e.url;a.hidden=false}else a.hidden=true;
+}
 const LS="civado_v2";
 let user=[],going=[],state={cat:"all",when:"all",q:""};
 try{const d=JSON.parse(localStorage.getItem(LS)||"{}");user=d.user||[];going=d.going||[];if(d.theme)document.documentElement.dataset.theme=d.theme}catch(e){}
@@ -231,8 +244,18 @@ document.getElementById("add").onclick=open;document.getElementById("add2").oncl
 document.getElementById("cancel").onclick=()=>ov.classList.remove("on");
 ov.addEventListener("click",e=>{if(e.target===ov)ov.classList.remove("on")});
 document.addEventListener("keydown",e=>{if(e.key==="Escape")ov.classList.remove("on")});
-document.getElementById("form").onsubmit=ev=>{
+document.getElementById("form").onsubmit=async ev=>{
   ev.preventDefault();const f=Object.fromEntries(new FormData(ev.target));
+  if(SEGNALAZIONI_URL){
+    const btn=ev.target.querySelector(".pill.acc");btn.disabled=true;
+    try{
+      const r=await fetch(SEGNALAZIONI_URL,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(f)});
+      const j=await r.json().catch(()=>({}));
+      alert(j.messaggio||(r.ok?"Grazie! La controlliamo e la pubblichiamo.":"Invio non riuscito, riprova più tardi."));
+      if(r.ok){ev.target.reset();ov.classList.remove("on")}
+    }catch(e){alert("Invio non riuscito, controlla la connessione e riprova.")}
+    btn.disabled=false;return;
+  }
   user.push({id:"u"+Date.now(),title:f.title,cat:f.cat,start:f.start,end:f.end||"",place:f.place,url:f.url,desc:f.desc,mine:true});
   save();ev.target.reset();ov.classList.remove("on");render();
 };
@@ -240,7 +263,7 @@ const th=document.getElementById("theme");
 function syncTheme(){const n=document.documentElement.dataset.theme==="night";th.setAttribute("aria-pressed",n);th.textContent=n?"Modalità Day":"Modalità Night"}
 th.onclick=()=>{document.documentElement.dataset.theme=document.documentElement.dataset.theme==="night"?"":"night";save();syncTheme()};
 syncTheme();render();
-fetch("eventi.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{SEED=d.eventi||[];AGG=d.aggiornato||"";const f=document.getElementById("agg");if(f&&AGG)f.textContent="Ultimo aggiornamento: "+new Date(AGG+"T12:00:00").toLocaleDateString("it-IT",{day:"numeric",month:"long",year:"numeric"});render()}).catch(()=>{document.getElementById("count").textContent="Impossibile caricare gli eventi"});
+fetch("eventi.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{SEED=d.eventi||[];AGG=d.aggiornato||"";if(d.evidenza)evidenza(d.evidenza);const f=document.getElementById("agg");if(f&&AGG)f.textContent="Ultimo aggiornamento: "+new Date(AGG+"T12:00:00").toLocaleDateString("it-IT",{day:"numeric",month:"long",year:"numeric"});render()}).catch(()=>{document.getElementById("count").textContent="Impossibile caricare gli eventi"});
 </script>
 </body>
 </html>
