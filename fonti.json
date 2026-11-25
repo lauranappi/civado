@@ -1,15 +1,99 @@
 {
- "nota": "Elenco dei locali e degli organizzatori da controllare a ogni aggiornamento. Per ognuno: cercare prima il sito o la pagina ufficiale, poi usare le pagine delle piattaforme solo per trovare le date. Stato: 'trovato' = locale identificato; 'non-identificato' = non ho trovato nulla con questo nome, da chiedere a Laura.",
+ "nota": "Elenco dei locali e degli organizzatori da controllare a ogni aggiornamento. Per ognuno: cercare prima il sito o la pagina ufficiale, poi usare le pagine delle piattaforme solo per trovare le date. Stato: 'trovato' = locale identificato; 'da-verificare' = località indicata da Laura ma pagina ufficiale non ancora trovata: cercarla, e aggiungere eventi solo se la fonte è chiara.",
  "locali": [
-  {"nome":"Bù Cheese Bar","tipo":"bar / aperitivo","indirizzo":"Via Monte San Michele 1, Bergamo","pagine":["https://visitbergamo.net/public/en/object-details/8300-bù-cheese-бар"],"note":"Aperto tutti i giorni; per le novità rimanda ai social. Probabilmente non pubblica un calendario eventi.","stato":"trovato"},
-  {"nome":"Setai Club","tipo":"discoteca","indirizzo":"Via Portico 21, Orio al Serio (BG)","pagine":["https://xceed.me/bergamo/club/setai-club"],"note":"Programma pubblicato su Xceed.","stato":"trovato"},
-  {"nome":"Capogiro","tipo":"locale serale","indirizzo":"Via Trento 14, Curno (BG)","pagine":["https://www.italia.it/en/lombardia/curno/where-to-eat/capogiro"],"note":"Aperto venerdì e sabato dalle 20:00 alle 04:00. Sito ufficiale da trovare.","stato":"trovato"},
-  {"nome":"Vibe Music Zone","tipo":"club","indirizzo":"Via Gandhi 34-38, Treviolo (BG)","pagine":["https://xceed.me/it/bergamo/event/noid-ro-sabato-16-novembre-ro-w-nick-olivetti/79048"],"note":"Serate (per esempio NØID) pubblicate su Xceed. Ingresso +18.","stato":"trovato"},
-  {"nome":"Daste","tipo":"spazio eventi, bistrò, cinema","indirizzo":"Via Daste e Spalenga 13/15, Bergamo","pagine":["https://xceed.me/it/bergamo/venue/daste-bergamo"],"note":"Concerti, club night, cinema Lo Schermo Bianco, rassegne. Cercare anche il sito ufficiale.","stato":"trovato"},
-  {"nome":"Ink Club","tipo":"club / musica dal vivo","indirizzo":"Bergamo","pagine":["https://ecodibergamo.it/eventi/outdoor/categoria/musica"],"note":"","stato":"trovato"},
-  {"nome":"Bolgia","tipo":"discoteca","indirizzo":"Via Vaccarezza, Osio Sopra (BG)","pagine":["https://www.technoairlines.com/events/bergamo","https://ra.co/events/2498793"],"note":"Sito ufficiale indicato da RA: bolgia.it (da verificare).","stato":"trovato"},
-  {"nome":"Sprint (Bergamo)","tipo":"da chiarire","pagine":[],"note":"Non ho trovato nulla con questo nome. Chiedere a Laura nome completo o link.","stato":"non-identificato"},
-  {"nome":"Casa Costez / Costez / Hotel Costez","tipo":"da chiarire","pagine":[],"note":"Non ho trovato nulla con questo nome. Chiedere a Laura grafia o link.","stato":"non-identificato"},
-  {"nome":"Bobadilla","tipo":"da chiarire","pagine":[],"note":"Non trovato: la ricerca ha restituito altre discoteche di Dalmine. Chiedere a Laura conferma di località e link.","stato":"non-identificato"}
+  {
+   "nome": "Bù Cheese Bar",
+   "tipo": "bar / aperitivo",
+   "indirizzo": "Via Monte San Michele 1, Bergamo",
+   "pagine": [
+    "https://visitbergamo.net/public/en/object-details/8300-bù-cheese-бар"
+   ],
+   "note": "Aperto tutti i giorni; per le novità rimanda ai social. Probabilmente non pubblica un calendario eventi.",
+   "stato": "trovato"
+  },
+  {
+   "nome": "Setai Club",
+   "tipo": "discoteca",
+   "indirizzo": "Via Portico 21, Orio al Serio (BG)",
+   "pagine": [
+    "https://xceed.me/bergamo/club/setai-club"
+   ],
+   "note": "Programma pubblicato su Xceed.",
+   "stato": "trovato"
+  },
+  {
+   "nome": "Capogiro",
+   "tipo": "locale serale",
+   "indirizzo": "Via Trento 14, Curno (BG)",
+   "pagine": [
+    "https://www.italia.it/en/lombardia/curno/where-to-eat/capogiro"
+   ],
+   "note": "Aperto venerdì e sabato dalle 20:00 alle 04:00. Sito ufficiale da trovare.",
+   "stato": "trovato"
+  },
+  {
+   "nome": "Vibe Music Zone",
+   "tipo": "club",
+   "indirizzo": "Via Gandhi 34-38, Treviolo (BG)",
+   "pagine": [
+    "https://xceed.me/it/bergamo/event/noid-ro-sabato-16-novembre-ro-w-nick-olivetti/79048"
+   ],
+   "note": "Serate (per esempio NØID) pubblicate su Xceed. Ingresso +18.",
+   "stato": "trovato"
+  },
+  {
+   "nome": "Daste",
+   "tipo": "spazio eventi, bistrò, cinema",
+   "indirizzo": "Via Daste e Spalenga 13/15, Bergamo",
+   "pagine": [
+    "https://xceed.me/it/bergamo/venue/daste-bergamo"
+   ],
+   "note": "Concerti, club night, cinema Lo Schermo Bianco, rassegne. Cercare anche il sito ufficiale.",
+   "stato": "trovato"
+  },
+  {
+   "nome": "Ink Club",
+   "tipo": "club / musica dal vivo",
+   "indirizzo": "Bergamo",
+   "pagine": [
+    "https://ecodibergamo.it/eventi/outdoor/categoria/musica"
+   ],
+   "note": "",
+   "stato": "trovato"
+  },
+  {
+   "nome": "Bolgia",
+   "tipo": "discoteca",
+   "indirizzo": "Via Vaccarezza, Osio Sopra (BG)",
+   "pagine": [
+    "https://www.technoairlines.com/events/bergamo",
+    "https://ra.co/events/2498793"
+   ],
+   "note": "Sito ufficiale indicato da RA: bolgia.it (da verificare).",
+   "stato": "trovato"
+  },
+  {
+   "nome": "Sprint",
+   "tipo": "locale vicino allo stadio di Bergamo (indicazione di Laura)",
+   "pagine": [],
+   "note": "Indicato da Laura. Il nome da solo non porta a risultati affidabili: cercare 'Sprint Bergamo' insieme a via dello Stadio, bar, pub, discoteca. Se non c'è una pagina ufficiale chiara, non aggiungere eventi.",
+   "stato": "da-verificare",
+   "indirizzo": "zona stadio, Bergamo"
+  },
+  {
+   "nome": "Costez (Casa Costez / Hotel Costez)",
+   "tipo": "locale/hotel, forse in provincia di Brescia (indicazione di Laura)",
+   "pagine": [],
+   "note": "Indicato da Laura. Il nome da solo non porta a risultati affidabili: cercare 'Costez' con Brescia e provincia. Se non c'è una pagina ufficiale chiara, non aggiungere eventi.",
+   "stato": "da-verificare"
+  },
+  {
+   "nome": "Bobadilla",
+   "tipo": "locale a Dalmine (indicazione di Laura)",
+   "pagine": [],
+   "note": "Confermato da Laura che è a Dalmine. Cercare 'Bobadilla Dalmine' e il sito o profilo ufficiale.",
+   "stato": "da-verificare",
+   "indirizzo": "Dalmine (BG)"
+  }
  ]
 }
