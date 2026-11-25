@@ -1,25 +1,26 @@
-name: Serate Night Life Bergamo
+name: Locandine Night Life Bergamo
 on:
   schedule:
-    - cron: "30 6 * * 1,5"   # lunedì e venerdì, 07:30 circa in Italia
+    - cron: "30 5 * * 1"   # ogni lunedì, circa 06:30 in Italia (prima dell'aggiornamento settimanale)
   workflow_dispatch: {}
 permissions:
   contents: write
 jobs:
-  leggi:
+  scarica:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Leggi le locandine e aggiorna eventi.json
+      - name: Scarica le locandine recenti
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python3 scripts/night_life.py
-      - name: Salva le modifiche
+        run: python3 scripts/scarica_locandine.py
+      - name: Pubblica sul ramo temporaneo (sovrascritto a ogni esecuzione)
         run: |
           git config user.name "Ci Vado bot"
           git config user.email "actions@users.noreply.github.com"
-          git add eventi.json scripts/night_life_stato.json
-          git diff --cached --quiet || git commit -m "Serate Night Life Bergamo: aggiornamento automatico"
-          git pull --rebase -q && git push
+          git checkout --orphan locandine-night-life
+          git rm -rf -q --cached . 
+          git add -f locandine
+          git commit -q -m "Locandine Night Life Bergamo $(date +%F)"
+          git push -f origin locandine-night-life
