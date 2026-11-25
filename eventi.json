@@ -1,0 +1,154 @@
+{
+ "aggiornato": "2026-11-25",
+ "eventi": [
+  {
+   "id": "s1",
+   "title": "Chiara Camoni. La Forza",
+   "cat": "mostre",
+   "start": "2026-06-25",
+   "end": "2026-12-31",
+   "place": "Accademia Carrara, Bergamo",
+   "desc": "Progetto di committenze a cura di Maria Luisa Pacelli ed Elena Volpato.",
+   "url": "https://www.arte.it/calendario-arte/bergamo/2026/12/05/",
+   "stato": "controllato"
+  },
+  {
+   "id": "s2",
+   "title": "Il bosco delle storie di Natale",
+   "cat": "ragazzi",
+   "start": "2026-12-05",
+   "place": "Teatro di Loreto, Bergamo",
+   "desc": "Spettacolo per bambini di Drogheria Rebelot.",
+   "url": "https://mentelocale.it/bergamo/",
+   "stato": "controllato"
+  },
+  {
+   "id": "s3",
+   "title": "La danza delle libellule",
+   "cat": "spettacoli",
+   "start": "2026-12-05",
+   "place": "Teatro Donizetti, Bergamo",
+   "url": "https://mentelocale.it/bergamo/",
+   "stato": "controllato"
+  },
+  {
+   "id": "s4",
+   "title": "Ghost – Il musical",
+   "cat": "spettacoli",
+   "start": "2026-12-06",
+   "place": "Teatro Donizetti, Bergamo",
+   "url": "https://mentelocale.it/bergamo/",
+   "stato": "controllato"
+  },
+  {
+   "id": "s5",
+   "title": "Giornata della cultura classica",
+   "cat": "corsi",
+   "start": "2027-01-18",
+   "place": "UniBg, sede di Sant’Agostino",
+   "desc": "Quattro lezioni interdisciplinari, ore 9–12.15. Programma provvisorio.",
+   "url": "https://www.unibg.it/",
+   "stato": "controllato"
+  },
+  {
+   "id": "t1",
+   "title": "Santa Lucia a Bergamo",
+   "cat": "ragazzi",
+   "hint": [
+    "13",
+    "DIC",
+    "da confermare"
+   ],
+   "place": "Musei, teatri e piazze",
+   "desc": "Ogni anno attorno al 13 dicembre: eventi per bambini nei musei, a teatro e in piazza.",
+   "url": "https://www.comune.bergamo.it/",
+   "stato": "da-confermare"
+  },
+  {
+   "id": "t2",
+   "title": "Villaggio di Natale",
+   "cat": "feste",
+   "hint": [
+    "?",
+    "DATE",
+    "da confermare"
+   ],
+   "place": "Centro di Bergamo",
+   "desc": "Edizione 2025: dal 15 novembre al 28 dicembre. Date 2026 da verificare.",
+   "url": "https://www.ecodibergamo.it/eventi/",
+   "stato": "da-confermare"
+  },
+  {
+   "id": "t3",
+   "title": "Serate all’Ink Club",
+   "cat": "serate",
+   "hint": [
+    "?",
+    "DATE",
+    "sul sito del locale"
+   ],
+   "place": "Bergamo",
+   "desc": "Djset, rap e musica dal vivo: il programma cambia ogni settimana.",
+   "url": "https://ecodibergamo.it/eventi/outdoor/categoria/musica",
+   "stato": "da-confermare"
+  },
+  {
+   "id": "t4",
+   "title": "Club night al Bolgia",
+   "cat": "serate",
+   "hint": [
+    "?",
+    "DATE",
+    "sul sito del locale"
+   ],
+   "place": "Bergamo",
+   "desc": "Serate di musica elettronica.",
+   "url": "https://ra.co/events/2498793",
+   "stato": "da-confermare"
+  },
+  {
+   "id": "t5",
+   "title": "Carnevale di Bergamo",
+   "cat": "ragazzi",
+   "hint": [
+    "?",
+    "FEB",
+    "da confermare"
+   ],
+   "place": "Musei di Bergamo",
+   "desc": "Laboratori per bambini nei musei cittadini. Programma 2027 da verificare.",
+   "url": "https://www.ecodibergamo.it/eventi/",
+   "stato": "da-confermare"
+  },
+  {
+   "id": "b1",
+   "title": "Marie Vaunt al Bolgia",
+   "cat": "serate",
+   "start": "2026-11-28",
+   "place": "Bolgia, Osio Sopra (BG) · dalle 23:00",
+   "desc": "Serata techno.",
+   "url": "https://www.technoairlines.com/events/bergamo",
+   "stato": "controllare"
+  },
+  {
+   "id": "b2",
+   "title": "Chelina Manuhutu al Bolgia",
+   "cat": "serate",
+   "start": "2026-12-05",
+   "place": "Bolgia, Osio Sopra (BG)",
+   "desc": "Serata techno.",
+   "url": "https://www.technoairlines.com/events/bergamo",
+   "stato": "controllare"
+  },
+  {
+   "id": "b3",
+   "title": "Novah al Bolgia",
+   "cat": "serate",
+   "start": "2026-12-07",
+   "place": "Bolgia, Osio Sopra (BG)",
+   "desc": "Serata techno.",
+   "url": "https://www.technoairlines.com/events/bergamo",
+   "stato": "controllare"
+  }
+ ]
+}

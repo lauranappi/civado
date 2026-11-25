@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ci Vado · Bergamo, stasera e oltre</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F3F1EC;--card:#fff;--ink:#15171F;--mute:#5C5F6B;--line:#DDD9CF;--acc:#D13A22;--onacc:#fff;--panel:#15171F;--onpanel:#F3F1EC;--okfg:#1F6B3A;--okbg:#E3F3E8;--tbfg:#7A4B00;--tbbg:#FBE9C3}
+[data-theme=night]{--bg:#0E1020;--card:#171A2E;--ink:#F2F1FA;--mute:#A3A6C2;--line:#2A2E4A;--acc:#FF6A4D;--onacc:#14161F;--panel:#1F2344;--onpanel:#F2F1FA;--okfg:#7BE0A0;--okbg:#14362A;--tbfg:#FFC95C;--tbbg:#3A2F12}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.45;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.brand{font-family:'Space Grotesk',Inter,sans-serif}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 clamp(16px,4vw,56px)}
+header.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:22px 0}
+.brand{display:flex;align-items:center;gap:12px;font-weight:700;font-size:26px;letter-spacing:-.5px;text-decoration:none}
+.nav{display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+.pill{min-height:44px;display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:0 20px;font-weight:600;font-size:15px;border:1px solid var(--line);background:var(--card);cursor:pointer;text-decoration:none}
+.pill.acc{background:var(--acc);color:var(--onacc);border-color:var(--acc)}
+.pill:hover{filter:brightness(.96)}
+.hero{display:flex;flex-wrap:wrap;gap:32px;padding:20px 0 12px;align-items:stretch}
+.hero-l{flex:1 1 520px;min-width:0;display:flex;flex-direction:column;justify-content:center;gap:22px}
+.eyebrow{margin:0;font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--mute)}
+h1{margin:0;font-size:clamp(44px,8vw,84px);line-height:.98;letter-spacing:-.04em}
+.lead{margin:0;font-size:18px;line-height:1.55;color:var(--mute);max-width:520px}
+.search{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:6px 8px 6px 20px;max-width:560px}
+.search input{flex:1;min-width:0;border:0;outline:0;background:transparent;padding:12px 0;font-size:16px}
+.search:focus-within{border-color:var(--acc)}
+.feat{flex:1 1 380px;min-width:0;position:relative;overflow:hidden;border-radius:28px;background:var(--panel);color:var(--onpanel);padding:clamp(24px,3vw,36px);display:flex;flex-direction:column;justify-content:space-between;gap:40px;min-height:380px}
+.feat svg.rings{position:absolute;right:-180px;top:-160px;pointer-events:none}
+.feat>*:not(svg){position:relative}
+.feat .kick{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase}
+.feat .kick i{width:8px;height:8px;border-radius:50%;background:var(--acc)}
+.feat h2{margin:0;font-size:clamp(32px,4vw,44px);line-height:1.02;letter-spacing:-.035em}
+.feat p{margin:10px 0 18px;opacity:.85}
+.feat a{display:inline-block;text-decoration:none;background:var(--onpanel);color:var(--panel);font-weight:600;padding:12px 20px;border-radius:999px}
+.sec{padding-top:44px}
+.sec-h{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:16px}
+.sec-h h2{margin:0;font-size:clamp(26px,3vw,34px);letter-spacing:-.03em}
+.count{color:var(--mute);font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+.chip{min-height:44px;border-radius:999px;padding:0 18px;border:1px solid var(--line);background:var(--card);cursor:pointer;font-weight:600;font-size:15px;display:inline-flex;align-items:center;gap:8px}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip small{opacity:.7;font-weight:500;font-size:13px}
+.chips.when .chip{min-height:38px;font-size:14px;font-weight:500}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,370px),1fr));gap:20px;padding-top:8px}
+.tk{display:flex;background:var(--card);border:1px solid var(--line);border-radius:22px;position:relative;min-width:0}
+.stub{flex:0 0 104px;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:22px 8px;border-right:2px dashed var(--line);text-align:center}
+.stub:before,.stub:after{content:"";position:absolute;right:-11px;width:20px;height:20px;border-radius:50%;background:var(--bg);border:1px solid var(--line)}
+.stub:before{top:-11px;clip-path:inset(50% 0 0 0)}
+.stub:after{bottom:-11px;clip-path:inset(0 0 50% 0)}
+.day{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:42px;line-height:1;letter-spacing:-.04em}
+.mon{font-size:13px;font-weight:600;letter-spacing:2px;color:var(--mute)}
+.tail{font-size:12px;line-height:1.3;color:var(--mute);margin-top:6px}
+.body{flex:1;min-width:0;padding:20px 22px;display:flex;flex-direction:column;gap:9px}
+.cat{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--mute)}
+.cat i{width:9px;height:9px;border-radius:50%}
+.tk h3{margin:0;font-size:20px;line-height:1.2;letter-spacing:-.02em}
+.place{font-size:14px;color:var(--mute)}
+.desc{font-size:14px;color:var(--mute)}
+.flag{align-self:flex-start;font-size:12px;font-weight:600;border-radius:8px;padding:3px 9px}
+.flag.ok{color:var(--okfg);background:var(--okbg)}
+.flag.tb{color:var(--tbfg);background:var(--tbbg)}
+.flag.ck{color:var(--ink);background:var(--line)}
+.flag.me{color:var(--ink);background:var(--line)}
+.act{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;padding-top:8px;flex-wrap:wrap}
+.go{min-height:44px;border:1.5px solid var(--acc);border-radius:999px;padding:0 20px;font-weight:600;background:transparent;cursor:pointer}
+.go[aria-pressed=true]{background:var(--acc);color:var(--onacc)}
+.act a,.act .lnk{font-size:14px;font-weight:500;background:none;border:0;cursor:pointer;padding:10px 4px;text-decoration:underline}
+.empty{grid-column:1/-1;padding:44px;text-align:center;color:var(--mute);border:1px dashed var(--line);border-radius:22px}
+.cta{margin-top:56px;border-radius:28px;background:var(--panel);color:var(--onpanel);padding:clamp(28px,4vw,48px);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:28px}
+.cta h2{margin:0 0 10px;font-size:clamp(26px,3.4vw,36px);letter-spacing:-.03em;line-height:1.1}
+.cta p{margin:0;opacity:.85;max-width:560px}
+footer{padding:36px 0 56px;font-size:13px;line-height:1.55;color:var(--mute);display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
+footer span:first-child{max-width:660px}
+.ov{position:fixed;inset:0;background:rgba(10,10,20,.6);display:none;align-items:center;justify-content:center;padding:16px;z-index:20}
+.ov.on{display:flex}
+.modal{background:var(--card);border-radius:24px;padding:24px;max-width:460px;width:100%;max-height:92vh;overflow:auto}
+.modal h2{margin:0 0 4px;font-size:26px;letter-spacing:-.03em}
+.modal label{display:block;font-size:13px;font-weight:600;color:var(--mute);margin-top:12px}
+.modal input,.modal select,.modal textarea{width:100%;min-height:44px;margin-top:4px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mrow{display:flex;gap:10px;justify-content:flex-end;margin-top:18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a class="brand" href="#top" aria-label="Ci Vado, inizio pagina">
+    <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true"><path d="M4 8h32v7a5 5 0 0 0 0 10v7H4v-7a5 5 0 0 0 0-10z" fill="var(--acc)"/><path d="M14 20l4 4 8-9" stroke="var(--onacc)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Ci Vado
+  </a>
+  <nav class="nav" aria-label="Principale">
+    <button class="pill" id="theme" aria-pressed="false">Modalità Night</button>
+    <button class="pill acc" id="add">Aggiungi un evento</button>
+  </nav>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-l">
+    <p class="eyebrow">Mostre · corsi · famiglie · serate</p>
+    <h1>Bergamo,<br>stasera e oltre.</h1>
+    <p class="lead">Tutto quello che succede in città e in provincia, in un posto solo. Ogni evento ha la sua fonte accanto, così sai di chi fidarti.</p>
+    <div class="search" role="search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--mute)" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <label for="q" style="position:absolute;left:-9999px">Cerca un evento</label>
+      <input id="q" type="search" placeholder="Cerca una mostra, un teatro, un locale…">
+    </div>
+  </div>
+  <aside class="feat" aria-label="In evidenza">
+    <svg class="rings" width="520" height="520" viewBox="0 0 520 520" fill="none" aria-hidden="true"><circle cx="260" cy="260" r="250" stroke="var(--acc)" stroke-opacity=".55" stroke-width="2"/><circle cx="260" cy="260" r="190" stroke="var(--acc)" stroke-opacity=".4" stroke-width="2"/><circle cx="260" cy="260" r="130" stroke="var(--acc)" stroke-opacity=".28" stroke-width="2"/><circle cx="260" cy="260" r="70" fill="var(--acc)" fill-opacity=".9"/></svg>
+    <div class="kick"><i></i>In evidenza · mostra</div>
+    <div>
+      <h2>Chiara Camoni.<br>La Forza</h2>
+      <p>Accademia Carrara, Bergamo<br>fino al 31 dicembre 2026</p>
+      <a href="https://www.arte.it/calendario-arte/bergamo/2026/12/05/" target="_blank" rel="noopener">Vedi la fonte ↗</a>
+    </div>
+  </aside>
+</section>
+
+<section class="sec" id="eventi">
+  <div class="sec-h"><h2>Cosa c’è in programma</h2><span class="count" id="count" aria-live="polite"></span></div>
+  <div class="chips" id="cats" role="group" aria-label="Categorie"></div>
+  <div class="chips when" id="when" role="group" aria-label="Periodo"></div>
+  <div class="grid" id="list"></div>
+</section>
+
+<section class="cta" id="organizzatori">
+  <div>
+    <h2>Organizzi qualcosa a Bergamo?</h2>
+    <p>Mandaci titolo, data, luogo e locandina. Lo pubblichiamo con il tuo link, senza passare da nessun algoritmo.</p>
+  </div>
+  <button class="pill acc" id="add2">Aggiungi il tuo evento</button>
+</section>
+
+<footer>
+  <span>Il bollino “controllato” indica che data e luogo sono stati verificati su una fonte pubblica. “Da controllare” indica un evento trovato in una sola fonte, non ancora verificato. “Date da confermare” indica un appuntamento che si ripete ogni anno ma di cui il programma di quest’anno non è ancora noto. Gli eventi che aggiungi tu restano salvati solo in questo browser.</span>
+  <span>Ci Vado · versione di prova<br><span id="agg"></span></span>
+</footer>
+</div>
+
+<div class="ov" id="ov" role="dialog" aria-modal="true" aria-labelledby="mt">
+  <form class="modal" id="form">
+    <h2 id="mt">Nuovo evento</h2>
+    <label>Titolo<input name="title" required></label>
+    <label>Categoria<select name="cat" id="catSel"></select></label>
+    <div class="two">
+      <label>Dal<input type="date" name="start" required></label>
+      <label>Al (facoltativo)<input type="date" name="end"></label>
+    </div>
+    <label>Luogo<input name="place" required></label>
+    <label>Link alla fonte (facoltativo)<input type="url" name="url" placeholder="https://"></label>
+    <label>Note<textarea name="desc" rows="2"></textarea></label>
+    <div class="mrow"><button type="button" class="pill" id="cancel">Annulla</button><button class="pill acc">Salva</button></div>
+  </form>
+</div>
+
+<script>
+const CATS=[["mostre","Mostre","#D13A22"],["corsi","Corsi e incontri","#2F6FDE"],["ragazzi","Ragazzi e famiglie","#1F8A4C"],["spettacoli","Spettacoli e musica","#8A4FD6"],["serate","Serate","#C98A00"],["feste","Feste e mercatini","#D6458E"]];
+let SEED=[],AGG="";
+const LS="civado_v2";
+let user=[],going=[],state={cat:"all",when:"all",q:""};
+try{const d=JSON.parse(localStorage.getItem(LS)||"{}");user=d.user||[];going=d.going||[];if(d.theme)document.documentElement.dataset.theme=d.theme}catch(e){}
+function save(){try{localStorage.setItem(LS,JSON.stringify({user,going,theme:document.documentElement.dataset.theme||""}))}catch(e){}}
+const iso=d=>d.toISOString().slice(0,10);
+const today=iso(new Date());
+const MON=["GEN","FEB","MAR","APR","MAG","GIU","LUG","AGO","SET","OTT","NOV","DIC"];
+function stub(e){
+  if(!e.start)return e.hint||["?","DATE","da confermare"];
+  const [y,m,d]=e.start.split("-");
+  let tail=String(y);
+  if(e.end&&e.end!==e.start){const [,m2,d2]=e.end.split("-");tail="fino al "+Number(d2)+" "+MON[Number(m2)-1].toLowerCase()}
+  else tail=new Date(e.start+"T12:00:00").toLocaleDateString("it-IT",{weekday:"long"});
+  return [d,MON[Number(m)-1],tail];
+}
+function inWhen(e){
+  if(state.when==="all")return true;
+  if(!e.start)return false;
+  const end=e.end||e.start;if(end<today)return false;
+  const t=new Date(),dow=(t.getDay()+6)%7;
+  if(state.when==="today")return e.start<=today&&end>=today;
+  if(state.when==="weekend"){const sat=new Date(t);sat.setDate(t.getDate()+(5-dow));const sun=new Date(sat);sun.setDate(sat.getDate()+1);return e.start<=iso(sun)&&end>=iso(sat)}
+  const m=new Date(t);m.setDate(t.getDate()+30);return e.start<=iso(m)&&end>=today;
+}
+function match(e){const q=state.q.toLowerCase();return !q||(e.title+" "+e.place+" "+(e.desc||"")).toLowerCase().includes(q)}
+function el(tag,cls,txt){const n=document.createElement(tag);if(cls)n.className=cls;if(txt!==undefined)n.textContent=txt;return n}
+function render(){
+  const all=[...SEED,...user];
+  renderChips(all);
+  const res=all.filter(e=>(state.cat==="all"||e.cat===state.cat)&&inWhen(e)&&match(e));
+  res.sort((a,b)=>(a.start||"9999").localeCompare(b.start||"9999"));
+  document.getElementById("count").textContent=res.length+(res.length===1?" evento":" eventi");
+  const list=document.getElementById("list");list.innerHTML="";
+  if(!res.length){list.append(el("div","empty","Nessun evento con questi filtri. Prova a cambiarli o aggiungine uno."));return}
+  for(const e of res){
+    const [d,m,t]=stub(e);const c=CATS.find(x=>x[0]===e.cat)||CATS[0];
+    const card=el("article","tk");
+    const s=el("div","stub");s.append(el("div","day",d),el("div","mon",m),el("div","tail",t));
+    const b=el("div","body");
+    const cat=el("div","cat");const dot=el("i");dot.style.background=c[2];cat.append(dot,document.createTextNode(c[1]));
+    b.append(cat,el("h3","",e.title),el("div","place",e.place));
+    if(e.desc)b.append(el("div","desc",e.desc));
+    const st=e.mine?"mine":(e.stato||"da-confermare");b.append(el("span","flag "+({"controllato":"ok","mine":"me","controllare":"ck"}[st]||"tb"),{"controllato":"✓ controllato","mine":"inserito da te","controllare":"da controllare"}[st]||"date da confermare"));
+    const act=el("div","act");
+    const g=el("button","go",going.includes(e.id)?"✓ Ci vado":"Ci vado");g.setAttribute("aria-pressed",going.includes(e.id));
+    g.onclick=()=>{going=going.includes(e.id)?going.filter(x=>x!==e.id):[...going,e.id];save();render()};
+    act.append(g);
+    if(e.url){const a=el("a","","Fonte ↗");a.href=e.url;a.target="_blank";a.rel="noopener";act.append(a)}
+    if(e.mine){const x=el("button","lnk","Elimina");x.onclick=()=>{user=user.filter(u=>u.id!==e.id);save();render()};act.append(x)}
+    b.append(act);card.append(s,b);list.append(card);
+  }
+}
+function chip(parent,label,n,on,fn){const b=el("button","chip");b.append(document.createTextNode(label));if(n!==null){const s=el("small","",n);b.append(s)}b.setAttribute("aria-pressed",on);b.onclick=fn;parent.append(b)}
+function renderChips(all){
+  const cats=document.getElementById("cats");cats.innerHTML="";
+  chip(cats,"Tutti",all.length,state.cat==="all",()=>{state.cat="all";render()});
+  for(const [id,l] of CATS)chip(cats,l,all.filter(e=>e.cat===id).length,state.cat===id,()=>{state.cat=id;render()});
+  const w=document.getElementById("when");w.innerHTML="";
+  for(const [id,l] of [["all","Sempre"],["today","Oggi"],["weekend","Questo weekend"],["month","Prossimi 30 giorni"]])chip(w,l,null,state.when===id,()=>{state.when=id;render()});
+}
+document.getElementById("q").oninput=e=>{state.q=e.target.value;render()};
+const sel=document.getElementById("catSel");CATS.forEach(([v,l])=>sel.add(new Option(l,v)));
+const ov=document.getElementById("ov");
+const open=()=>{ov.classList.add("on");ov.querySelector("input").focus()};
+document.getElementById("add").onclick=open;document.getElementById("add2").onclick=open;
+document.getElementById("cancel").onclick=()=>ov.classList.remove("on");
+ov.addEventListener("click",e=>{if(e.target===ov)ov.classList.remove("on")});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")ov.classList.remove("on")});
+document.getElementById("form").onsubmit=ev=>{
+  ev.preventDefault();const f=Object.fromEntries(new FormData(ev.target));
+  user.push({id:"u"+Date.now(),title:f.title,cat:f.cat,start:f.start,end:f.end||"",place:f.place,url:f.url,desc:f.desc,mine:true});
+  save();ev.target.reset();ov.classList.remove("on");render();
+};
+const th=document.getElementById("theme");
+function syncTheme(){const n=document.documentElement.dataset.theme==="night";th.setAttribute("aria-pressed",n);th.textContent=n?"Modalità Day":"Modalità Night"}
+th.onclick=()=>{document.documentElement.dataset.theme=document.documentElement.dataset.theme==="night"?"":"night";save();syncTheme()};
+syncTheme();render();
+fetch("eventi.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{SEED=d.eventi||[];AGG=d.aggiornato||"";const f=document.getElementById("agg");if(f&&AGG)f.textContent="Ultimo aggiornamento: "+new Date(AGG+"T12:00:00").toLocaleDateString("it-IT",{day:"numeric",month:"long",year:"numeric"});render()}).catch(()=>{document.getElementById("count").textContent="Impossibile caricare gli eventi"});
+</script>
+</body>
+</html>
