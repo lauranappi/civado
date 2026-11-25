@@ -1,7 +1,7 @@
 name: Locandine Night Life Bergamo
 on:
   schedule:
-    - cron: "30 5 * * 1"   # ogni lunedì, circa 06:30 in Italia (prima dell'aggiornamento settimanale)
+    - cron: "30 16 * * 4"   # ogni giovedì, circa 17:30 in Italia (il recap esce nel pomeriggio)
   workflow_dispatch: {}
 permissions:
   contents: write
