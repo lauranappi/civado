@@ -149,6 +149,123 @@
    "desc": "Serata techno.",
    "url": "https://www.technoairlines.com/events/bergamo",
    "stato": "controllare"
+  },
+  {
+   "id": "m1",
+   "title": "Thriller Experience, tributo a Michael Jackson",
+   "cat": "spettacoli",
+   "start": "2026-11-26",
+   "place": "Teatro Gavazzeni, Seriate",
+   "url": "https://www.mentelocale.it/bergamo/130116-thriller-experience-tributo-michael-jackson-gavazzeni.htm",
+   "stato": "controllare"
+  },
+  {
+   "id": "m2",
+   "title": "Alahor in Granata",
+   "cat": "spettacoli",
+   "start": "2026-11-27",
+   "place": "Teatro Sociale, Bergamo",
+   "url": "https://www.mentelocale.it/bergamo/121285-alahor-in-granata.htm",
+   "stato": "controllare"
+  },
+  {
+   "id": "m3",
+   "title": "Benvenuto nell'Ai!, one man show di Alessandro Cattelan",
+   "cat": "spettacoli",
+   "start": "2026-12-01",
+   "place": "ChorusLife Arena, Bergamo",
+   "url": "https://www.mentelocale.it/bergamo/133138-benvenuto-one-man-show-alessandro-cattelan-133138.htm",
+   "stato": "controllare"
+  },
+  {
+   "id": "m4",
+   "title": "Terapia di coppia, i PanPers",
+   "cat": "spettacoli",
+   "start": "2026-12-04",
+   "place": "Teatro Donizetti, Bergamo",
+   "url": "https://www.mentelocale.it/bergamo/133305-i-panpers-in-terapia-di-coppia.htm",
+   "stato": "controllare"
+  },
+  {
+   "id": "m5",
+   "title": "The Watch plays Genesis",
+   "cat": "spettacoli",
+   "start": "2026-12-10",
+   "place": "Teatro Donizetti, Bergamo",
+   "url": "https://www.mentelocale.it/bergamo/136671-the-watch-plays-genesis.htm",
+   "stato": "controllare"
+  },
+  {
+   "id": "m6",
+   "title": "Un dono per Lucia",
+   "cat": "ragazzi",
+   "start": "2026-12-13",
+   "place": "Teatro di Loreto, Bergamo",
+   "url": "https://www.mentelocale.it/bergamo/134825-un-dono-per-lucia.htm",
+   "stato": "controllare"
+  },
+  {
+   "id": "m7",
+   "title": "Il baule di Natale",
+   "cat": "ragazzi",
+   "start": "2026-12-13",
+   "place": "Teatro degli Storti, Alzano Lombardo",
+   "url": "https://www.mentelocale.it/bergamo/134816-il-baule-di-natale.htm",
+   "stato": "controllare"
+  },
+  {
+   "id": "m8",
+   "title": "Haendel: Messiah",
+   "cat": "spettacoli",
+   "start": "2026-12-19",
+   "place": "Teatro Sociale, Bergamo",
+   "url": "https://www.mentelocale.it/bergamo/118620-haendel-messiah.htm",
+   "stato": "controllare"
+  },
+  {
+   "id": "m9",
+   "title": "Candlelight: i classici del Natale",
+   "cat": "spettacoli",
+   "start": "2026-12-19",
+   "place": "Centro Congressi Giovanni XXIII, Bergamo",
+   "url": "https://www.mentelocale.it/bergamo/145056-candlelight-classici-natale-concerto-lume-candela-quartetto-archi.htm",
+   "stato": "controllare"
+  },
+  {
+   "id": "m10",
+   "title": "Lo schiaccianoci",
+   "cat": "spettacoli",
+   "start": "2026-12-26",
+   "place": "Teatro Donizetti, Bergamo",
+   "url": "https://www.mentelocale.it/bergamo/123467-lo-schiaccianoci.htm",
+   "stato": "controllare"
+  },
+  {
+   "id": "m11",
+   "title": "Concerto di Capodanno con l'Orchestra Filarmonica Italiana",
+   "cat": "spettacoli",
+   "start": "2027-01-01",
+   "place": "Teatro Sociale, Bergamo",
+   "url": "https://www.mentelocale.it/bergamo/129387-concerto-di-capodanno.htm",
+   "stato": "controllare"
+  },
+  {
+   "id": "m12",
+   "title": "La Befana si è arrabbiata!",
+   "cat": "ragazzi",
+   "start": "2027-01-06",
+   "place": "Teatro di Loreto, Bergamo",
+   "url": "https://www.mentelocale.it/bergamo/134842-la-befana-si-arrabbiata.htm",
+   "stato": "controllare"
+  },
+  {
+   "id": "m13",
+   "title": "Turandot di Puccini",
+   "cat": "spettacoli",
+   "start": "2027-01-08",
+   "place": "Teatro Donizetti, Bergamo",
+   "url": "https://www.mentelocale.it/bergamo/129389-turandot.htm",
+   "stato": "controllare"
   }
  ]
 }
