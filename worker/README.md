@@ -15,3 +15,7 @@ L'aggiornamento settimanale legge le Issue aperte, verifica gli eventi e li aggi
 4. Copia l'indirizzo del Worker (`https://....workers.dev`) e mettilo in `index.html`
    nella costante `SEGNALAZIONI_URL`.
 5. Repository civado > Watch > Custom > Issues, per ricevere l'avviso.
+
+## Configurazione sincronizzata
+`wrangler.jsonc` contiene il nome del Worker e la variabile `ALLOWED_ORIGIN`, così le distribuzioni da Wrangler
+e dal pannello restano allineate. Il segreto `GITHUB_TOKEN` non sta nel file: si imposta a parte.

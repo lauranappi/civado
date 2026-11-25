@@ -1,0 +1,12 @@
+{
+  // Configurazione del Worker delle segnalazioni di Ci Vado.
+  // Il nome deve coincidere con quello del Worker creato su Cloudflare.
+  "name": "civado-segnalazioni",
+  "main": "segnalazioni.js",
+  "compatibility_date": "2026-11-25",
+  "vars": {
+    "ALLOWED_ORIGIN": "https://lauranappi.github.io"
+  }
+  // GITHUB_TOKEN è un segreto: si imposta dal pannello di Cloudflare
+  // (o con `npx wrangler secret put GITHUB_TOKEN`), mai in questo file.
+}
