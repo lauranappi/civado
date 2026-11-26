@@ -90,7 +90,7 @@ for profilo in profili:
         testo = (p.get("caption") or "")[:TESTO]
         if file_post or testo:
             elenco.append({"profilo": nome_profilo, "locale": profilo.get("locale"),
-                           "comune": profilo.get("comune"), "post": p["permalink"],
+                           "comune": profilo.get("comune"), "tipo": profilo.get("tipo"), "post": p["permalink"],
                            "data": giorno.isoformat(), "testo": testo, "file": file_post})
 
 if not riusciti:

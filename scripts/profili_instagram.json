@@ -12,6 +12,7 @@
   {"username": "bucheesebar", "locale": "Bù Cheese Bar", "comune": "Bergamo"},
   {"username": "sprint_bergamo", "locale": "Sprint", "comune": "Bergamo"},
   {"username": "edonebergamo", "locale": "Edoné", "comune": "Bergamo"},
-  {"username": "daste_bergamo", "locale": "Daste", "comune": "Bergamo"}
+  {"username": "daste_bergamo", "locale": "Daste", "comune": "Bergamo"},
+  {"username": "lab80cinemas", "locale": "Lab 80", "tipo": "cinema"}
  ]
 }
