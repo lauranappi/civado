@@ -1,0 +1,17 @@
+{
+ "nota": "Profili Instagram letti con Meta Business Discovery (solo account business o creator). Per aggiungerne uno basta una riga.",
+ "profili": [
+  {"username": "nightlifebergamo", "locale": "Night Life Bergamo (recap settimanale)"},
+  {"username": "setai_club_official", "locale": "Setai Club", "comune": "Orio al Serio"},
+  {"username": "vibetheclub", "locale": "Vibe Club", "comune": "Treviolo"},
+  {"username": "bobadillafeelingclub", "locale": "Bobadilla", "comune": "Dalmine"},
+  {"username": "capogirojoyclub", "locale": "Capogiro", "comune": "Curno"},
+  {"username": "costez_official", "locale": "Costez"},
+  {"username": "casacostez", "locale": "Casa Costez", "comune": "Bergamo"},
+  {"username": "hotelcostez__official", "locale": "Hotel Costez"},
+  {"username": "bucheesebar", "locale": "Bù Cheese Bar", "comune": "Bergamo"},
+  {"username": "sprint_bergamo", "locale": "Sprint", "comune": "Bergamo"},
+  {"username": "edonebergamo", "locale": "Edoné", "comune": "Bergamo"},
+  {"username": "daste_bergamo", "locale": "Daste", "comune": "Bergamo"}
+ ]
+}
