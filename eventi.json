@@ -13,6 +13,206 @@
    "stato": "controllare"
   },
   {
+   "id": "nl-casacostez-1126",
+   "title": "Serata a Casa Costez: canta con Sissy",
+   "cat": "serate",
+   "start": "2026-11-26",
+   "place": "Casa Costez, Bergamo",
+   "desc": "Live e dj set, si canta con Sissy.",
+   "url": "https://www.instagram.com/p/DgIcUbgCPLz/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-inkclub-1126",
+   "title": "Bubusettete + Space Jam",
+   "cat": "serate",
+   "start": "2026-11-26",
+   "place": "Ink Club, Bergamo",
+   "desc": "Teatro dalle 21:30 (porte 20), poi Space Jam. Gratis, soci Arci.",
+   "url": "https://www.instagram.com/p/DfzkDFcxPyY/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-casacostez-1127",
+   "title": "Casa Costez: DJ Delima",
+   "cat": "serate",
+   "start": "2026-11-27",
+   "place": "Casa Costez, Bergamo",
+   "desc": "Dalle 21 live e dj set con DJ Delima, club dalle 22.",
+   "url": "https://www.instagram.com/p/DgIcUbgCPLz/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-vibe-1127",
+   "title": "Active",
+   "cat": "serate",
+   "start": "2026-11-27",
+   "place": "Vibe Club, Treviolo",
+   "desc": "Serata Active al Vibe.",
+   "url": "https://www.instagram.com/p/DgDT_qojmfr/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-capogiro-1127",
+   "title": "Vanity – The Divas Night",
+   "cat": "serate",
+   "start": "2026-11-27",
+   "place": "CaPoGiRo, Curno",
+   "desc": "Con Gio Bona e Cucky, privé Encore.",
+   "url": "https://www.instagram.com/p/DgDPRidDM6R/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-hotelcostez-1127",
+   "title": "Friday Encore",
+   "cat": "serate",
+   "start": "2026-11-27",
+   "place": "Hotel Costez",
+   "desc": "Black Friday Encore. Comune e orario non indicati nel post.",
+   "url": "https://www.instagram.com/p/DgF3rHzCEg_/",
+   "stato": "da-confermare"
+  },
+  {
+   "id": "nl-inkclub-1127",
+   "title": "Safiye release party + Corinna",
+   "cat": "serate",
+   "start": "2026-11-27",
+   "place": "Ink Club, Bergamo",
+   "desc": "Porte ore 21, contributo all’ingresso, soci Arci.",
+   "url": "https://www.instagram.com/p/Df4_gCcl2Wi/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-nikita-1127",
+   "title": "Take Over + Zona Olly tribute",
+   "cat": "serate",
+   "start": "2026-11-27",
+   "place": "Nikita, Grumello del Monte",
+   "desc": "Dalle 22:30, gratis fino a mezzanotte, poi donna 10 € e uomo 15 € con drink.",
+   "url": "https://www.instagram.com/p/DgDE77fpOWS/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-druso-1127",
+   "title": "Filagosto Band Battle",
+   "cat": "serate",
+   "start": "2026-11-27",
+   "place": "Druso, Ranica",
+   "desc": "Live ore 21, ingresso libero. Aftershow dei Deneb.",
+   "url": "https://www.instagram.com/p/DgDms8ZAOxY/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-lab80-1127",
+   "title": "Bouchra (in lingua originale)",
+   "cat": "spettacoli",
+   "start": "2026-11-27",
+   "place": "Sala dell’Orologio, Bergamo",
+   "desc": "Ore 21, VOS sottotitolato, rassegna A Practice of Freedom.",
+   "url": "https://www.instagram.com/p/DgJ1g2qjIUD/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-casacostez-1128",
+   "title": "One Place, Two Souls",
+   "cat": "serate",
+   "start": "2026-11-28",
+   "place": "Casa Costez, Bergamo",
+   "desc": "Live dinner show dalle 21, club dalle 22.",
+   "url": "https://www.instagram.com/p/DgIcUbgCPLz/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-vibe-1128",
+   "title": "Preset: Logic",
+   "cat": "serate",
+   "start": "2026-11-28",
+   "place": "Vibe Club, Treviolo",
+   "desc": "Logic dalle 21:30 a mezzanotte, poi Momento Lab.",
+   "url": "https://www.instagram.com/p/DgDT_qojmfr/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-capogiro-1128",
+   "title": "Chéri",
+   "cat": "serate",
+   "start": "2026-11-28",
+   "place": "CaPoGiRo, Curno",
+   "desc": "Con Gio Bona e Salimei.",
+   "url": "https://www.instagram.com/p/DgDPRidDM6R/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-hotelcostez-1128",
+   "title": "Playground",
+   "cat": "serate",
+   "start": "2026-11-28",
+   "place": "Hotel Costez",
+   "desc": "Saturday Playground. Comune e orario non indicati nel post.",
+   "url": "https://www.instagram.com/p/DgF3rHzCEg_/",
+   "stato": "da-confermare"
+  },
+  {
+   "id": "nl-inkclub-1128",
+   "title": "Skinhead Fest",
+   "cat": "serate",
+   "start": "2026-11-28",
+   "place": "Ink Club, Bergamo",
+   "desc": "Live di Scalpo, Sezione.8 e Calce Viva.",
+   "url": "https://www.instagram.com/reel/DgKMWA3xHt-/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-nikita-1128",
+   "title": "Enter the Void: The Block",
+   "cat": "serate",
+   "start": "2026-11-28",
+   "place": "Nikita, Grumello del Monte",
+   "desc": "Con Savage Party, 00–04. Donna 15 €, uomo 20 € con drink.",
+   "url": "https://www.instagram.com/p/DgD0_iWhPmf/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-loft-1128",
+   "title": "Serata a Loft: Dani Vescovi e Lapo Underground",
+   "cat": "serate",
+   "start": "2026-11-28",
+   "place": "Loft, Azzano San Paolo",
+   "desc": "Vinili e apericena 21–23, party 23–4. Omaggio con consumazione entro le 24, su prenotazione.",
+   "url": "https://www.instagram.com/reel/DfzPZPrtGfJ/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-life-1128",
+   "title": "La notte delle classi 70-80-90",
+   "cat": "serate",
+   "start": "2026-11-28",
+   "place": "Life Club, Rovetta",
+   "desc": "Special guest Stagadet. Ingresso 18 € con drink, 18+.",
+   "url": "https://www.instagram.com/reel/DgDK8MwxPQ_/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-druso-1129",
+   "title": "Malpaga Winter Night",
+   "cat": "serate",
+   "start": "2026-11-29",
+   "place": "Druso, Ranica",
+   "desc": "Cinque band dalle 16 alle 21, ingresso gratuito.",
+   "url": "https://www.instagram.com/p/DgFVpfxAE83/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-inkclub-1201",
+   "title": "Serata giochi all’Ink Club",
+   "cat": "serate",
+   "start": "2026-12-01",
+   "place": "Ink Club, Bergamo",
+   "desc": "Scacchi, briscola e scopa.",
+   "url": "https://www.instagram.com/reel/DgKMWA3xHt-/",
+   "stato": "controllare"
+  },
+  {
    "id": "s2",
    "title": "Il bosco delle storie di Natale",
    "cat": "ragazzi",
@@ -39,6 +239,36 @@
    "place": "Teatro Donizetti, Bergamo · ore 20:30",
    "url": "https://www.teatrodonizetti.it/it/evento/ghost-il-musical/2026-12-07",
    "stato": "controllato"
+  },
+  {
+   "id": "nl-druso-1217",
+   "title": "Billy Cobham, The Italian Trio",
+   "cat": "serate",
+   "start": "2026-12-17",
+   "place": "Druso, Ranica",
+   "desc": "Porte ore 20, concerto ore 21:30.",
+   "url": "https://www.instagram.com/p/DgNlMYVgXIV/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-capogiro-1231",
+   "title": "Capodanno: Midnight in Rio",
+   "cat": "serate",
+   "start": "2026-12-31",
+   "place": "CaPoGiRo, Curno",
+   "desc": "Dalle 22 alle 5. Prevendita: buffet e club 45 €, solo club 25 €.",
+   "url": "https://www.instagram.com/p/Df-JF6zjNx-/",
+   "stato": "controllare"
+  },
+  {
+   "id": "nl-druso-0117",
+   "title": "The Sticky Fingers, tributo ai Rolling Stones",
+   "cat": "serate",
+   "start": "2027-01-17",
+   "place": "Druso, Ranica",
+   "desc": "Live ore 18, porte ore 17.",
+   "url": "https://www.instagram.com/p/DgItVo9Avk4/",
+   "stato": "controllare"
   },
   {
    "id": "s5",
@@ -1142,6 +1372,16 @@
    "place": "ChorusLife Arena, Bergamo",
    "url": "https://arena.choruslife.com/it/events/vincenzo-schettini-viaggio-al-centro-della-fisica-lo-spettacolo-della-conoscenza/",
    "stato": "controllato"
+  },
+  {
+   "id": "nl-druso-0124",
+   "title": "Tricarico in concerto",
+   "cat": "serate",
+   "start": "2027-01-24",
+   "place": "Druso, Ranica",
+   "desc": "Concerto piano e voce ore 18.",
+   "url": "https://www.instagram.com/p/DgLRkKeAQFs/",
+   "stato": "controllare"
   }
  ],
  "evidenza": "m2"
