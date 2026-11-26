@@ -13,6 +13,13 @@
   {"username": "sprint_bergamo", "locale": "Sprint", "comune": "Bergamo"},
   {"username": "edonebergamo", "locale": "Edoné", "comune": "Bergamo"},
   {"username": "daste_bergamo", "locale": "Daste", "comune": "Bergamo"},
-  {"username": "lab80cinemas", "locale": "Lab 80", "tipo": "cinema"}
+  {"username": "lab80cinemas", "locale": "Lab 80", "tipo": "cinema"},
+  {"username": "bolgia.official", "locale": "Bolgia", "comune": "Osio Sopra"},
+  {"username": "inkclub_bergamo", "locale": "Ink Club", "comune": "Bergamo"},
+  {"username": "nikita__land", "locale": "Nikita"},
+  {"username": "loft.bergamo", "locale": "Loft", "comune": "Azzano San Paolo"},
+  {"username": "drusobg", "locale": "Druso", "comune": "Ranica"},
+  {"username": "zeroclub.bg", "locale": "Zero Club", "comune": "Bergamo"},
+  {"username": "life.club.rovetta", "locale": "Life Club", "comune": "Rovetta"}
  ]
 }
