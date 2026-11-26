@@ -10,34 +10,34 @@
    "place": "Accademia Carrara, Bergamo",
    "desc": "Progetto di committenze a cura di Maria Luisa Pacelli ed Elena Volpato.",
    "url": "https://www.arte.it/calendario-arte/bergamo/2026/12/05/",
-   "stato": "controllato"
+   "stato": "controllare"
   },
   {
    "id": "s2",
    "title": "Il bosco delle storie di Natale",
    "cat": "ragazzi",
-   "start": "2026-12-05",
-   "place": "Teatro di Loreto, Bergamo",
+   "start": "2026-12-06",
+   "place": "Teatro di Loreto, Bergamo · ore 16:30",
    "desc": "Spettacolo per bambini di Drogheria Rebelot.",
-   "url": "https://mentelocale.it/bergamo/",
+   "url": "https://www.pandemoniumteatro.org/il-teatro-delle-meraviglie-loreto/",
    "stato": "controllato"
   },
   {
    "id": "s3",
    "title": "La danza delle libellule",
    "cat": "spettacoli",
-   "start": "2026-12-05",
-   "place": "Teatro Donizetti, Bergamo",
-   "url": "https://mentelocale.it/bergamo/",
+   "start": "2026-12-06",
+   "place": "Teatro Donizetti, Bergamo · ore 15:30",
+   "url": "https://www.teatrodonizetti.it/it/evento/la-danza-delle-libellule/2026-12-06",
    "stato": "controllato"
   },
   {
    "id": "s4",
    "title": "Ghost – Il musical",
    "cat": "spettacoli",
-   "start": "2026-12-06",
-   "place": "Teatro Donizetti, Bergamo",
-   "url": "https://mentelocale.it/bergamo/",
+   "start": "2026-12-07",
+   "place": "Teatro Donizetti, Bergamo · ore 20:30",
+   "url": "https://www.teatrodonizetti.it/it/evento/ghost-il-musical/2026-12-07",
    "stato": "controllato"
   },
   {
@@ -54,29 +54,23 @@
    "id": "t1",
    "title": "Santa Lucia a Bergamo",
    "cat": "ragazzi",
-   "hint": [
-    "13",
-    "DIC",
-    "da confermare"
-   ],
-   "place": "Musei, teatri e piazze",
-   "desc": "Ogni anno attorno al 13 dicembre: eventi per bambini nei musei, a teatro e in piazza.",
-   "url": "https://www.comune.bergamo.it/",
-   "stato": "da-confermare"
+   "start": "2026-12-04",
+   "end": "2026-12-13",
+   "place": "Biblioteche, musei e teatri di Bergamo",
+   "desc": "Laboratori, spettacoli e cinema per bambini in attesa di Santa Lucia.",
+   "url": "https://www.bergamonews.it/2026/11/26/bergamo-aspetta-santa-lucia-dal-4-al-13-dicembre-una-citta-a-misura-di-bambino/940492/",
+   "stato": "controllare"
   },
   {
    "id": "t2",
    "title": "Villaggio di Natale",
    "cat": "feste",
-   "hint": [
-    "?",
-    "DATE",
-    "da confermare"
-   ],
-   "place": "Centro di Bergamo",
-   "desc": "Edizione 2025: dal 15 novembre al 28 dicembre. Date 2026 da verificare.",
-   "url": "https://www.ecodibergamo.it/eventi/",
-   "stato": "da-confermare"
+   "start": "2026-11-14",
+   "end": "2026-12-27",
+   "place": "Piazzale degli Alpini, Bergamo",
+   "desc": "18ª edizione, mercatino con casette in legno.",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/bergamo/villaggio-di-natale_307600/",
+   "stato": "controllare"
   },
   {
    "id": "t3",
@@ -101,9 +95,9 @@
     "DATE",
     "sul sito del locale"
    ],
-   "place": "Bergamo",
+   "place": "Bolgia, Osio Sopra (BG)",
    "desc": "Serate di musica elettronica.",
-   "url": "https://ra.co/events/2498793",
+   "url": "https://www.bolgia.it/eventi/",
    "stato": "da-confermare"
   },
   {
@@ -127,8 +121,8 @@
    "start": "2026-11-28",
    "place": "Bolgia, Osio Sopra (BG) · dalle 23:00",
    "desc": "Serata techno.",
-   "url": "https://www.technoairlines.com/events/bergamo",
-   "stato": "controllare"
+   "url": "https://www.bolgia.it/eventi/",
+   "stato": "controllato"
   },
   {
    "id": "b2",
@@ -137,8 +131,8 @@
    "start": "2026-12-05",
    "place": "Bolgia, Osio Sopra (BG)",
    "desc": "Serata techno.",
-   "url": "https://www.technoairlines.com/events/bergamo",
-   "stato": "controllare"
+   "url": "https://www.bolgia.it/eventi/",
+   "stato": "controllato"
   },
   {
    "id": "b3",
@@ -147,8 +141,8 @@
    "start": "2026-12-07",
    "place": "Bolgia, Osio Sopra (BG)",
    "desc": "Serata techno.",
-   "url": "https://www.technoairlines.com/events/bergamo",
-   "stato": "controllare"
+   "url": "https://www.bolgia.it/eventi/",
+   "stato": "controllato"
   },
   {
    "id": "m1",
@@ -164,9 +158,10 @@
    "title": "Alahor in Granata",
    "cat": "spettacoli",
    "start": "2026-11-27",
-   "place": "Teatro Sociale, Bergamo",
-   "url": "https://www.mentelocale.it/bergamo/121285-alahor-in-granata.htm",
-   "stato": "controllare"
+   "place": "Teatro Sociale, Bergamo · ore 20:00",
+   "desc": "Opera del festival Donizetti Opera.",
+   "url": "https://www.teatrodonizetti.it/en/event/alahor-in-granata/2026-11-27/",
+   "stato": "controllato"
   },
   {
    "id": "m3",
@@ -174,53 +169,53 @@
    "cat": "spettacoli",
    "start": "2026-12-01",
    "place": "ChorusLife Arena, Bergamo",
-   "url": "https://www.mentelocale.it/bergamo/133138-benvenuto-one-man-show-alessandro-cattelan-133138.htm",
-   "stato": "controllare"
+   "url": "https://arena.choruslife.com/it/events/alessandro-cattelan/",
+   "stato": "controllato"
   },
   {
    "id": "m4",
    "title": "Terapia di coppia, i PanPers",
    "cat": "spettacoli",
    "start": "2026-12-04",
-   "place": "Teatro Donizetti, Bergamo",
-   "url": "https://www.mentelocale.it/bergamo/133305-i-panpers-in-terapia-di-coppia.htm",
-   "stato": "controllare"
+   "place": "Teatro Donizetti, Bergamo · ore 20:30",
+   "url": "https://www.teatrodonizetti.it/it/evento/panpers-in-terapia-di-coppia/2026-12-04",
+   "stato": "controllato"
   },
   {
    "id": "m5",
    "title": "The Watch plays Genesis",
    "cat": "spettacoli",
    "start": "2026-12-10",
-   "place": "Teatro Donizetti, Bergamo",
-   "url": "https://www.mentelocale.it/bergamo/136671-the-watch-plays-genesis.htm",
-   "stato": "controllare"
+   "place": "Teatro Donizetti, Bergamo · ore 20:30",
+   "url": "https://www.teatrodonizetti.it/it/evento/the-watch-plays-genesis/2026-12-10",
+   "stato": "controllato"
   },
   {
    "id": "m6",
    "title": "Un dono per Lucia",
    "cat": "ragazzi",
    "start": "2026-12-13",
-   "place": "Teatro di Loreto, Bergamo",
-   "url": "https://www.mentelocale.it/bergamo/134825-un-dono-per-lucia.htm",
-   "stato": "controllare"
+   "place": "Teatro di Loreto, Bergamo · ore 16:30",
+   "url": "https://www.pandemoniumteatro.org/il-teatro-delle-meraviglie-loreto/",
+   "stato": "controllato"
   },
   {
    "id": "m7",
    "title": "Il baule di Natale",
    "cat": "ragazzi",
    "start": "2026-12-13",
-   "place": "Teatro degli Storti, Alzano Lombardo",
-   "url": "https://www.mentelocale.it/bergamo/134816-il-baule-di-natale.htm",
-   "stato": "controllare"
+   "place": "Teatro degli Storti, Alzano Lombardo · ore 16:30",
+   "url": "https://www.pandemoniumteatro.org/il-teatro-delle-meraviglie-alzano/",
+   "stato": "controllato"
   },
   {
    "id": "m8",
    "title": "Haendel: Messiah",
    "cat": "spettacoli",
    "start": "2026-12-19",
-   "place": "Teatro Sociale, Bergamo",
-   "url": "https://www.mentelocale.it/bergamo/118620-haendel-messiah.htm",
-   "stato": "controllare"
+   "place": "Teatro Sociale, Bergamo · ore 18:00",
+   "url": "https://www.teatrodonizetti.it/it/evento/messiah/2026-12-19",
+   "stato": "controllato"
   },
   {
    "id": "m9",
@@ -236,18 +231,18 @@
    "title": "Lo schiaccianoci",
    "cat": "spettacoli",
    "start": "2026-12-26",
-   "place": "Teatro Donizetti, Bergamo",
-   "url": "https://www.mentelocale.it/bergamo/123467-lo-schiaccianoci.htm",
-   "stato": "controllare"
+   "place": "Teatro Donizetti, Bergamo · ore 17:00 e 20:30",
+   "url": "https://www.teatrodonizetti.it/it/evento/lo-schiaccianoci/2026-12-26",
+   "stato": "controllato"
   },
   {
    "id": "m11",
    "title": "Concerto di Capodanno con l'Orchestra Filarmonica Italiana",
    "cat": "spettacoli",
    "start": "2027-01-01",
-   "place": "Teatro Sociale, Bergamo",
-   "url": "https://www.mentelocale.it/bergamo/129387-concerto-di-capodanno.htm",
-   "stato": "controllare"
+   "place": "Teatro Sociale, Bergamo · ore 11:00",
+   "url": "https://www.teatrodonizetti.it/it/evento/concerto-di-capodanno/2027-01-01",
+   "stato": "controllato"
   },
   {
    "id": "m12",
@@ -263,10 +258,891 @@
    "title": "Turandot di Puccini",
    "cat": "spettacoli",
    "start": "2027-01-08",
+   "end": "2027-01-10",
    "place": "Teatro Donizetti, Bergamo",
-   "url": "https://www.mentelocale.it/bergamo/129389-turandot.htm",
+   "desc": "8 gennaio ore 20:00, 10 gennaio ore 15:30.",
+   "url": "https://www.teatrodonizetti.it/it/evento/turandot/2027-01-08",
+   "stato": "controllato"
+  },
+  {
+   "id": "c1",
+   "title": "Isaac Julien. Museum Dreams",
+   "cat": "mostre",
+   "start": "2026-04-10",
+   "end": "2027-01-10",
+   "place": "gres art 671, via San Bernardino, Bergamo",
+   "url": "https://gresart671.org/en/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c2",
+   "title": "Selma Selman. 1000 Tears",
+   "cat": "mostre",
+   "start": "2026-10-01",
+   "end": "2027-01-24",
+   "place": "GAMeC, Spazio Zero, Bergamo",
+   "url": "https://www.bergamonews.it/2026/10/02/dove-finisce-il-dolore-comincia-la-speranza-selma-selman-alla-gamec-con-1000-tears/925840",
    "stato": "controllare"
+  },
+  {
+   "id": "c3",
+   "title": "Detective dell’arte",
+   "cat": "ragazzi",
+   "start": "2026-11-12",
+   "end": "2027-07-04",
+   "place": "Accademia Carrara, Bergamo",
+   "desc": "Percorso per famiglie legato alla mostra su Federico Zeri.",
+   "url": "https://lacarrara.it/mostra/detective-dellarte-2026/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c4",
+   "title": "Federico Zeri. Un diario personale",
+   "cat": "mostre",
+   "start": "2026-11-12",
+   "end": "2027-07-04",
+   "place": "Accademia Carrara, Bergamo",
+   "desc": "Mostra dedicata allo storico dell’arte Federico Zeri.",
+   "url": "https://lacarrara.it/mostra/federico-zeri-2026/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c5",
+   "title": "Alex Da Corte. Sun and Shadow",
+   "cat": "mostre",
+   "start": "2026-11-13",
+   "end": "2027-01-17",
+   "place": "Palazzo della Ragione, Bergamo",
+   "desc": "Installazione a cura di Stefano Raimondi.",
+   "url": "https://www.artribune.com/arti-visive/arte-contemporanea/2026/11/alex-da-corte-palazzo-della-ragione-bergamo/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c6",
+   "title": "Bergamo On Ice & Star Garden",
+   "cat": "feste",
+   "start": "2026-11-20",
+   "end": "2027-01-10",
+   "place": "NXT Station, Piazzale Alpini, Bergamo",
+   "desc": "Pista di pattinaggio e programma di eventi.",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/nergamo-on-ice_307420/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c7",
+   "title": "Christmas Market sul Sentierone",
+   "cat": "feste",
+   "start": "2026-11-20",
+   "end": "2027-01-06",
+   "place": "Piazza Matteotti, Bergamo",
+   "desc": "Mercatino organizzato da Comap.",
+   "url": "https://www.bergamonews.it/2026/11/11/a-bergamo-e-provincia-arrivano-i-primi-mercatini-e-villaggi-di-natale/933179/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c8",
+   "title": "Casa Bergamasca di Babbo Natale",
+   "cat": "ragazzi",
+   "start": "2026-11-21",
+   "end": "2027-01-03",
+   "place": "Palazzo Gorra, Clusone",
+   "desc": "Solo in alcuni giorni; dal 28 dicembre arriva la Befana. Controlla il calendario.",
+   "url": "https://www.lacasabergamascadibabbonatale.it/programma.html",
+   "stato": "controllato"
+  },
+  {
+   "id": "c9",
+   "title": "Christmas Design: Dove dorme l’aurora",
+   "cat": "feste",
+   "start": "2026-11-21",
+   "end": "2027-01-10",
+   "place": "ChorusLife, Bergamo",
+   "url": "https://choruslife.com/it/events/christmas-design-dove-dorme-laurora/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c10",
+   "title": "Life is Christmas a ChorusLife",
+   "cat": "feste",
+   "start": "2026-11-21",
+   "end": "2027-01-06",
+   "place": "ChorusLife, Bergamo",
+   "desc": "Programma natalizio nelle piazze.",
+   "url": "https://choruslife.com/it/events/life-is-christmas-programma-completo/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c11",
+   "title": "Mercatini di Natale di Castione della Presolana",
+   "cat": "feste",
+   "start": "2026-11-21",
+   "end": "2026-12-20",
+   "place": "Castione della Presolana",
+   "desc": "Nei weekend e dal 5 all’8 dicembre.",
+   "url": "https://www.bergamonews.it/2026/11/11/a-bergamo-e-provincia-arrivano-i-primi-mercatini-e-villaggi-di-natale/933179/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c12",
+   "title": "Mercatini di Natale di Clusone",
+   "cat": "feste",
+   "start": "2026-11-21",
+   "end": "2027-01-06",
+   "place": "Corte Sant’Anna e Piazza Orologio, Clusone",
+   "url": "https://www.bergamonews.it/2026/11/11/a-bergamo-e-provincia-arrivano-i-primi-mercatini-e-villaggi-di-natale/933179/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c13",
+   "title": "Alessandro Bergonzoni a gres art 671",
+   "cat": "corsi",
+   "start": "2026-11-27",
+   "place": "gres art 671, Bergamo · ore 18:30",
+   "desc": "Incontro.",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/alessandro-bergonzoni_306191/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c14",
+   "title": "Conejo Night: Bad Bunny all night long",
+   "cat": "serate",
+   "start": "2026-11-27",
+   "place": "Daste, Bergamo · dalle 22:00",
+   "url": "https://www.dastebergamo.com/27-11-conejo-night-bad-bunny-all-night-long/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c15",
+   "title": "Presente Prossimo: incontro con Nicola Lagioia",
+   "cat": "corsi",
+   "start": "2026-11-27",
+   "place": "Auditorium Cuminetti, Albino · ore 20:45",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/albino/presente-prossimo-incontro-con-nicola-lagioia_307479/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c16",
+   "title": "Il borgo di Natale",
+   "cat": "feste",
+   "start": "2026-11-28",
+   "end": "2027-01-06",
+   "place": "Lovere",
+   "url": "https://www.bergamonews.it/2026/11/11/a-bergamo-e-provincia-arrivano-i-primi-mercatini-e-villaggi-di-natale/933179/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c17",
+   "title": "Kokedama di Natale",
+   "cat": "corsi",
+   "start": "2026-11-28",
+   "place": "Ca’ de Marche, Scanzorosciate · ore 16:30",
+   "desc": "Laboratorio natalizio.",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/handmade/scanzorosciate/kokedama-di-natale-workshop-natalizio_307397/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c18",
+   "title": "Le convenienze ed inconvenienze teatrali",
+   "cat": "spettacoli",
+   "start": "2026-11-28",
+   "place": "Teatro Donizetti, Bergamo · ore 20:00",
+   "desc": "Festival Donizetti Opera.",
+   "url": "https://www.teatrodonizetti.it/en/event/le-convenienze-ed-inconvenienze-teatrali/2026-11-28/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c19",
+   "title": "Mercatino vintage di Baroneostu",
+   "cat": "feste",
+   "start": "2026-11-28",
+   "place": "Daste, Bergamo · 14:00–19:00",
+   "desc": "Ingresso libero.",
+   "url": "https://www.dastebergamo.com/28-11-mercatino-vintage-di-baroneostu/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c20",
+   "title": "Punto e punta",
+   "cat": "ragazzi",
+   "start": "2026-11-28",
+   "place": "Teatro di Loreto, Bergamo · ore 16:30",
+   "desc": "Il Teatro delle Meraviglie, Pandemonium Teatro.",
+   "url": "https://www.pandemoniumteatro.org/il-teatro-delle-meraviglie-loreto/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c21",
+   "title": "Savana Funk",
+   "cat": "spettacoli",
+   "start": "2026-11-28",
+   "place": "Druso, Ranica · ore 22:00",
+   "desc": "Concerto.",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/ranica/savana-funk_307876/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c22",
+   "title": "Sister Act",
+   "cat": "spettacoli",
+   "start": "2026-11-28",
+   "place": "Teatro Serassi, Villa d’Almè · ore 21:00",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/villa-dalme/sister-act_306303/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c23",
+   "title": "The Swing Home Night",
+   "cat": "serate",
+   "start": "2026-11-28",
+   "place": "Daste, Bergamo · 21:30–01:00",
+   "desc": "Swing e rock’n’roll con DJ set.",
+   "url": "https://www.dastebergamo.com/28-11-the-swing-home-night/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c24",
+   "title": "Il brutto brutto anatroccolo",
+   "cat": "ragazzi",
+   "start": "2026-11-29",
+   "place": "Teatro di Loreto, Bergamo · ore 16:30",
+   "desc": "Il Teatro delle Meraviglie, Pandemonium Teatro.",
+   "url": "https://www.pandemoniumteatro.org/il-teatro-delle-meraviglie-loreto/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c25",
+   "title": "In mezzo ai villaggi d’Europa: concerto e dialogo",
+   "cat": "corsi",
+   "start": "2026-11-29",
+   "place": "Daste, Bergamo · ore 10:30",
+   "desc": "A cura di Openarch.",
+   "url": "https://www.dastebergamo.com/29-11-in-mezzo-ai-villaggi-deuropa-concerto-e-dialogo/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c26",
+   "title": "L’esule di Roma",
+   "cat": "spettacoli",
+   "start": "2026-11-29",
+   "place": "Teatro Donizetti, Bergamo · ore 15:30",
+   "desc": "Festival Donizetti Opera.",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/lesule-di-roma_305892/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c27",
+   "title": "RaTaBlòtt, composizione per orecchie bambine",
+   "cat": "ragazzi",
+   "start": "2026-11-29",
+   "place": "Teatro San Giorgio, Bergamo · ore 10:45 e 16:30",
+   "desc": "Teatro Prova, da 1 a 4 anni.",
+   "url": "https://www.teatroprova.com/evento/giocarteatro-presenta-ratablott-composizione-per-orecchie-bambine/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c28",
+   "title": "Sarnico Magic Christmas",
+   "cat": "feste",
+   "start": "2026-11-29",
+   "end": "2027-01-06",
+   "place": "Lungolago e centro storico, Sarnico",
+   "url": "https://www.bergamonews.it/2026/11/11/a-bergamo-e-provincia-arrivano-i-primi-mercatini-e-villaggi-di-natale/933179/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c29",
+   "title": "È vietato piangere",
+   "cat": "ragazzi",
+   "start": "2026-11-29",
+   "place": "Teatro degli Storti, Alzano Lombardo · ore 16:30",
+   "desc": "Il Teatro delle Meraviglie, Pandemonium Teatro.",
+   "url": "https://www.pandemoniumteatro.org/il-teatro-delle-meraviglie-alzano/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c30",
+   "title": "Linea con le donne contro la violenza",
+   "cat": "corsi",
+   "start": "2026-12-01",
+   "end": "2026-12-03",
+   "place": "Daste, Bergamo",
+   "desc": "Quiz, laboratorio, incontro e teatro.",
+   "url": "https://www.dastebergamo.com/123-12-2026-linea-con-le-donne-contro-la-violenza/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c31",
+   "title": "Convegno su Bernardo Zenale",
+   "cat": "corsi",
+   "start": "2026-12-04",
+   "place": "Treviglio · 09:00–18:00",
+   "desc": "Studi per il cinquecentenario.",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/treviglio/convegno-di-studi-zenalis-da-treviglio_307299/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c32",
+   "title": "Presente Prossimo: incontro con Ben Pastor",
+   "cat": "corsi",
+   "start": "2026-12-04",
+   "place": "Sala Consiliare, Pradalunga · ore 20:45",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/pradalunga/presente-prossimo-incontro-con-ben-pastor_307481/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c33",
+   "title": "I Monasteri d’inverno",
+   "cat": "feste",
+   "start": "2026-12-05",
+   "end": "2027-01-24",
+   "place": "Sant’Agata e Carmine, Città Alta, Bergamo",
+   "desc": "Teatro per ragazzi e Giardino di Natale; giorni diversi per ogni spazio.",
+   "url": "https://www.bergamonews.it/2026/11/23/santagata-e-carmine-torna-la-magia-dei-monasteri-dinverno-dai-mercatini-al-luna-park-delle-meraviglie/939474",
+   "stato": "controllare"
+  },
+  {
+   "id": "c34",
+   "title": "Luna Park delle Meraviglie",
+   "cat": "ragazzi",
+   "start": "2026-12-05",
+   "end": "2027-01-10",
+   "place": "Monastero del Carmine, Bergamo",
+   "desc": "Nei weekend fino al 20 dicembre, poi tutti i giorni.",
+   "url": "https://www.bergamonews.it/2026/11/23/santagata-e-carmine-torna-la-magia-dei-monasteri-dinverno-dai-mercatini-al-luna-park-delle-meraviglie/939474",
+   "stato": "controllare"
+  },
+  {
+   "id": "c35",
+   "title": "Marco Goldin. Monet, una vita a colori",
+   "cat": "spettacoli",
+   "start": "2026-12-05",
+   "place": "ChorusLife Arena, Bergamo",
+   "url": "https://arena.choruslife.com/it/events/marco-goldin-monet-una-vita-a-colori/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c36",
+   "title": "Music Passport: il giro del mondo in 80 minuti",
+   "cat": "spettacoli",
+   "start": "2026-12-05",
+   "place": "Teatro Sociale, Bergamo · ore 17:00",
+   "url": "https://www.teatrodonizetti.it/it/evento/music-passport-il-giro-del-mondo-in-80-minuti/2026-12-05",
+   "stato": "controllato"
+  },
+  {
+   "id": "c37",
+   "title": "Pau Amma release party con David Paysden",
+   "cat": "spettacoli",
+   "start": "2026-12-05",
+   "place": "Daste, Bergamo · ore 21:30",
+   "url": "https://www.dastebergamo.com/5-12-pau-amma-release-party-con-david-paysden/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c38",
+   "title": "Favole e animali del cielo al planetario",
+   "cat": "ragazzi",
+   "start": "2026-12-06",
+   "place": "La Torre del Sole, Brembate di Sopra · ore 14:30",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/brembate-di-sopra/favole-e-animali-del-cielo-al-planetario_307520/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c39",
+   "title": "La lanterna di Santa Lucia",
+   "cat": "ragazzi",
+   "start": "2026-12-06",
+   "end": "2026-12-13",
+   "place": "Teatro San Giorgio, Bergamo",
+   "desc": "6 dicembre 15:30 e 17:30; 8 e 13 dicembre 16:30. Dai 3 anni.",
+   "url": "https://www.teatroprova.com/evento/giocarteatro-presenta-la-lanterna-di-santa-lucia-15/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c40",
+   "title": "La magia dell’inverno",
+   "cat": "mostre",
+   "start": "2026-12-06",
+   "end": "2027-01-09",
+   "place": "Sala Cesare Manzoni, Ponte San Pietro",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/ponte-san-pietro/la-magia-dellinverno_307828/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c41",
+   "title": "La panchina",
+   "cat": "spettacoli",
+   "start": "2026-12-06",
+   "place": "Teatro Nuovo Treviglio, Treviglio · ore 16:00",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/treviglio/la-panchina_307533/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c42",
+   "title": "Santa Lucia delle Tradizioni",
+   "cat": "feste",
+   "start": "2026-12-06",
+   "place": "Seriate · 10:00–19:00",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/seriate/santa-lucia-delle-tradizioni_307883/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c43",
+   "title": "Villaggio di Natale di Scanzorosciate",
+   "cat": "feste",
+   "start": "2026-12-06",
+   "end": "2026-12-20",
+   "place": "Centro storico, Scanzorosciate",
+   "desc": "6, 8, 13 e 20 dicembre.",
+   "url": "https://www.bergamonews.it/2026/11/11/a-bergamo-e-provincia-arrivano-i-primi-mercatini-e-villaggi-di-natale/933179/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c44",
+   "title": "Ho visto la musica. Vita e opere di Ennio Morricone",
+   "cat": "spettacoli",
+   "start": "2026-12-07",
+   "end": "2026-12-08",
+   "place": "Teatro Sociale, Bergamo",
+   "url": "https://www.teatrodonizetti.it/it/evento/ho-visto-la-musica-vita-e-opere-di-ennio-morricone-2/2026-12-07",
+   "stato": "controllato"
+  },
+  {
+   "id": "c45",
+   "title": "Aspettando Santa Lucia a Palazzo Moroni",
+   "cat": "ragazzi",
+   "start": "2026-12-08",
+   "place": "Palazzo Moroni, Bergamo · ore 16:00",
+   "desc": "Si replica il 12 dicembre. Da 6 a 10 anni.",
+   "url": "https://www.bergamonews.it/2026/11/26/bergamo-aspetta-santa-lucia-dal-4-al-13-dicembre-una-citta-a-misura-di-bambino/940492/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c46",
+   "title": "Un dono per Lucia ad Alzano",
+   "cat": "ragazzi",
+   "start": "2026-12-08",
+   "place": "Teatro degli Storti, Alzano Lombardo · ore 16:30",
+   "desc": "Il Teatro delle Meraviglie, Pandemonium Teatro.",
+   "url": "https://www.pandemoniumteatro.org/il-teatro-delle-meraviglie-alzano/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c47",
+   "title": "Masters of Magic",
+   "cat": "spettacoli",
+   "start": "2026-12-11",
+   "end": "2026-12-13",
+   "place": "ChorusLife Arena, Bergamo",
+   "url": "https://arena.choruslife.com/it/events/masters-of-magic/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c48",
+   "title": "Boudchart in Bergamo",
+   "cat": "spettacoli",
+   "start": "2026-12-12",
+   "place": "Teatro Sociale, Bergamo",
+   "url": "https://www.teatrodonizetti.it/evento/boudchart-in-bergamo/2026-12-12/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c49",
+   "title": "ChorusLife Craft Market",
+   "cat": "feste",
+   "start": "2026-12-12",
+   "place": "ChorusLife, Bergamo",
+   "url": "https://choruslife.com/it/events/choruslife-craft-market-12-dicembre-2026/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c50",
+   "title": "Esprimi un desiderio…",
+   "cat": "ragazzi",
+   "start": "2026-12-12",
+   "place": "Accademia Carrara, Bergamo · ore 15:30",
+   "desc": "Per bambini da 4 a 6 anni.",
+   "url": "https://www.bergamonews.it/2026/11/26/bergamo-aspetta-santa-lucia-dal-4-al-13-dicembre-una-citta-a-misura-di-bambino/940492/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c51",
+   "title": "Fiera dell’Elettronica e del Disco Vinile",
+   "cat": "feste",
+   "start": "2026-12-12",
+   "place": "TreviglioFiera, Treviglio · 09:00–19:00",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/treviglio/fiera-dellelettronica-e-del-disco-vinile_305678/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c52",
+   "title": "La lanterna di Santa Lucia ad Albino",
+   "cat": "ragazzi",
+   "start": "2026-12-12",
+   "place": "Auditorium Cuminetti, Albino · ore 16:30",
+   "desc": "Teatro Prova, dai 3 anni.",
+   "url": "https://www.teatroprova.com/evento/bimbi-a-teatro-presenta-la-lanterna-di-santa-lucia/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c53",
+   "title": "Laboratorio di decorazione ceramica",
+   "cat": "corsi",
+   "start": "2026-12-12",
+   "place": "Arte Factum, Alzano Lombardo · ore 15:00",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/corsi/alzano-lombardo/decorazione-ceramica_307460/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c54",
+   "title": "Rosencrantz e Guildenstern sono morti",
+   "cat": "spettacoli",
+   "start": "2026-12-12",
+   "end": "2026-12-20",
+   "place": "Teatro Donizetti, Bergamo",
+   "desc": "Con Francesco Pannofino. Da martedì a sabato 20:30, domenica 15:30.",
+   "url": "https://www.teatrodonizetti.it/it/evento/rosencrantz-e-guildenstern-sono-morti/2026-12-12",
+   "stato": "controllato"
+  },
+  {
+   "id": "c55",
+   "title": "Segno e colore",
+   "cat": "mostre",
+   "start": "2026-12-12",
+   "end": "2026-12-20",
+   "place": "Sala Fallaci, Ponte San Pietro",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/ponte-san-pietro/segno-e-colore_307802/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c56",
+   "title": "Storie con i fiocchi",
+   "cat": "ragazzi",
+   "start": "2026-12-12",
+   "place": "gres art 671, Bergamo · ore 16:30",
+   "desc": "Teatro di narrazione dai 3 anni.",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/storie-con-i-fiocchi-alla-finestra-con-il-naso-allinsu-aspettando-la-neve-e_307211/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c57",
+   "title": "Vladimir Cauchemar al Bolgia",
+   "cat": "serate",
+   "start": "2026-12-12",
+   "place": "Bolgia, Osio Sopra (BG) · dalle 23:30",
+   "desc": "Serata Hidden Hell.",
+   "url": "https://www.bolgia.it/vladimir-cauchemar/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c58",
+   "title": "Santa Lucia in museo… NATURAlmente",
+   "cat": "ragazzi",
+   "start": "2026-12-13",
+   "place": "Museo di Scienze Naturali Caffi, Bergamo · ore 15:00",
+   "desc": "Per bambini da 6 a 11 anni.",
+   "url": "https://www.bergamonews.it/2026/11/26/bergamo-aspetta-santa-lucia-dal-4-al-13-dicembre-una-citta-a-misura-di-bambino/940492/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c59",
+   "title": "L’arte della guerra tra Oriente e Occidente, con Luciano Canfora",
+   "cat": "corsi",
+   "start": "2026-12-14",
+   "place": "Teatro Donizetti, Bergamo · ore 18:30",
+   "desc": "Conferenza.",
+   "url": "https://www.teatrodonizetti.it/it/?taxonomy=&term=",
+   "stato": "controllato"
+  },
+  {
+   "id": "c60",
+   "title": "Harlem Gospel Choir",
+   "cat": "spettacoli",
+   "start": "2026-12-17",
+   "place": "ChorusLife Arena, Bergamo",
+   "url": "https://arena.choruslife.com/it/events/harlem-gospel-choir/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c61",
+   "title": "BardoMagno al Druso",
+   "cat": "spettacoli",
+   "start": "2026-12-18",
+   "place": "Druso, Ranica",
+   "desc": "Concerto.",
+   "url": "https://songkick.com/concerts/43417845-bardomagno-at-druso",
+   "stato": "controllare"
+  },
+  {
+   "id": "c62",
+   "title": "Attack on Titan Concert",
+   "cat": "spettacoli",
+   "start": "2026-12-19",
+   "place": "ChorusLife Arena, Bergamo",
+   "url": "https://arena.choruslife.com/it/events/attack-on-titan-concert/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c63",
+   "title": "Laboratorio di acquerello botanico",
+   "cat": "corsi",
+   "start": "2026-12-19",
+   "place": "Arte Factum, Alzano Lombardo · ore 15:00",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/corsi/alzano-lombardo/acquerello-botanico_307462/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c64",
+   "title": "Mercatino di Natale all’Abbazia di San Paolo d’Argon",
+   "cat": "feste",
+   "start": "2026-12-19",
+   "end": "2026-12-20",
+   "place": "Abbazia di San Paolo d’Argon",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/san-paolo-dargon/merfcatino-di-natale-abbazia-san-paolo-dargon-bg_307775/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c65",
+   "title": "Natale a Casa Zuccalunga",
+   "cat": "ragazzi",
+   "start": "2026-12-19",
+   "place": "gres art 671, Bergamo · ore 16:30",
+   "desc": "Teatro dei burattini.",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/natale-a-casa-zuccalunga_307212/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c66",
+   "title": "Canto di Natale",
+   "cat": "ragazzi",
+   "start": "2026-12-20",
+   "place": "Teatro degli Storti, Alzano Lombardo · ore 16:30",
+   "desc": "Il Teatro delle Meraviglie, Pandemonium Teatro.",
+   "url": "https://www.pandemoniumteatro.org/il-teatro-delle-meraviglie-alzano/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c67",
+   "title": "I segreti di Babbo Natale",
+   "cat": "ragazzi",
+   "start": "2026-12-20",
+   "place": "Teatro di Loreto, Bergamo · ore 16:30",
+   "desc": "Il Teatro delle Meraviglie, Pandemonium Teatro.",
+   "url": "https://www.pandemoniumteatro.org/il-teatro-delle-meraviglie-loreto/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c68",
+   "title": "Laboratorio di centrotavola natalizio",
+   "cat": "corsi",
+   "start": "2026-12-20",
+   "place": "Arte Factum, Alzano Lombardo · ore 15:00",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/corsi/alzano-lombardo/centro-tavola-natalizio_307463/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c69",
+   "title": "Concerto di Natale con I Piccoli Musici",
+   "cat": "spettacoli",
+   "start": "2026-12-27",
+   "place": "Teatro Sociale, Bergamo · ore 15:30",
+   "url": "https://www.teatrodonizetti.it/it/evento/concerto-di-natale/2026-12-27",
+   "stato": "controllato"
+  },
+  {
+   "id": "c70",
+   "title": "A Christmas Carol, il musical",
+   "cat": "spettacoli",
+   "start": "2026-12-28",
+   "place": "ChorusLife Arena, Bergamo · ore 20:30",
+   "url": "https://arena.choruslife.com/it/events/christmascarol/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c71",
+   "title": "3SOME di Capodanno vol. 3",
+   "cat": "serate",
+   "start": "2026-12-31",
+   "place": "Daste, Bergamo · 23:00–04:00",
+   "desc": "Con Edoné e Utōpia.",
+   "url": "https://www.dastebergamo.com/31-12-3some-di-capodanno-vol-3-daste-edone-utopia/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c72",
+   "title": "Katia Follesa. Speciale Capodanno",
+   "cat": "spettacoli",
+   "start": "2026-12-31",
+   "place": "ChorusLife Arena, Bergamo · ore 21:45",
+   "url": "https://arena.choruslife.com/it/events/katia-follesa-speciale-capodanno/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c73",
+   "title": "Magical Mystery Story",
+   "cat": "spettacoli",
+   "start": "2026-12-31",
+   "place": "Teatro Donizetti, Bergamo · ore 22:00",
+   "desc": "Serata di Capodanno con The Beatbox e Carlo Massarini.",
+   "url": "https://www.teatrodonizetti.it/it/evento/magical-mystery-story/2026-12-31",
+   "stato": "controllato"
+  },
+  {
+   "id": "c74",
+   "title": "Carmen, Balletto di Milano",
+   "cat": "spettacoli",
+   "start": "2027-01-02",
+   "place": "Teatro Donizetti, Bergamo · ore 17:00 e 20:30",
+   "url": "https://www.teatrodonizetti.it/it/evento/carmen/2027-01-02",
+   "stato": "controllato"
+  },
+  {
+   "id": "c75",
+   "title": "La Duchessa di Chicago",
+   "cat": "spettacoli",
+   "start": "2027-01-03",
+   "place": "Teatro Donizetti, Bergamo · ore 15:30",
+   "desc": "Operetta.",
+   "url": "https://www.teatrodonizetti.it/it/evento/la-duchessa-di-chicago/2027-01-03",
+   "stato": "controllato"
+  },
+  {
+   "id": "c76",
+   "title": "La fiaba dei tre bauli",
+   "cat": "ragazzi",
+   "start": "2027-01-06",
+   "place": "Teatro Fondazione Rubini, Romano di Lombardia · ore 16:30",
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/romano-di-lombardia/la-fiaba-dei-tre-bauli_307259/",
+   "stato": "controllare"
+  },
+  {
+   "id": "c77",
+   "title": "Un inossidabile frammento: intorno a Turandot",
+   "cat": "corsi",
+   "start": "2027-01-07",
+   "place": "Sala Musica del Teatro Donizetti, Bergamo · ore 18:00",
+   "desc": "Incontro di presentazione.",
+   "url": "https://www.teatrodonizetti.it/it/evento/un-inossidabile-frammento/2027-01-07/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c78",
+   "title": "Cappuccetti matti",
+   "cat": "ragazzi",
+   "start": "2027-01-10",
+   "place": "Teatro degli Storti, Alzano Lombardo · ore 16:30",
+   "desc": "Il Teatro delle Meraviglie, Pandemonium Teatro.",
+   "url": "https://www.pandemoniumteatro.org/il-teatro-delle-meraviglie-alzano/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c79",
+   "title": "Peluche",
+   "cat": "ragazzi",
+   "start": "2027-01-10",
+   "place": "Teatro di Loreto, Bergamo · ore 16:30",
+   "desc": "Il Teatro delle Meraviglie, Pandemonium Teatro.",
+   "url": "https://www.pandemoniumteatro.org/il-teatro-delle-meraviglie-loreto/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c80",
+   "title": "Winx Club: The Magic is Back, il musical",
+   "cat": "ragazzi",
+   "start": "2027-01-10",
+   "place": "ChorusLife Arena, Bergamo",
+   "url": "https://arena.choruslife.com/it/events/winx-club-the-magic-is-back-il-musical/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c81",
+   "title": "L’ombra perduta di Peter Schlemihl",
+   "cat": "spettacoli",
+   "start": "2027-01-14",
+   "place": "Teatro Sociale, Bergamo · ore 20:30",
+   "desc": "Con Marco Baliani.",
+   "url": "https://www.teatrodonizetti.it/it/evento/l-ombra-perduta-di-peter-schlemihl/2027-01-14",
+   "stato": "controllato"
+  },
+  {
+   "id": "c82",
+   "title": "Prima del temporale",
+   "cat": "spettacoli",
+   "start": "2027-01-16",
+   "end": "2027-01-24",
+   "place": "Teatro Donizetti, Bergamo",
+   "desc": "Con Umberto Orsini. Da martedì a sabato 20:30, domenica 15:30.",
+   "url": "https://www.teatrodonizetti.it/it/evento/prima-del-temporale/2027-01-16",
+   "stato": "controllato"
+  },
+  {
+   "id": "c83",
+   "title": "Cuordiferro",
+   "cat": "ragazzi",
+   "start": "2027-01-17",
+   "place": "Teatro di Loreto, Bergamo · ore 16:30",
+   "desc": "Il Teatro delle Meraviglie, Pandemonium Teatro.",
+   "url": "https://www.pandemoniumteatro.org/il-teatro-delle-meraviglie-loreto/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c84",
+   "title": "Il cubo magico",
+   "cat": "ragazzi",
+   "start": "2027-01-17",
+   "place": "Teatro degli Storti, Alzano Lombardo · ore 16:30",
+   "desc": "Il Teatro delle Meraviglie, Pandemonium Teatro.",
+   "url": "https://www.pandemoniumteatro.org/il-teatro-delle-meraviglie-alzano/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c85",
+   "title": "Canto Libero, omaggio a Battisti e Mogol",
+   "cat": "spettacoli",
+   "start": "2027-01-23",
+   "place": "ChorusLife Arena, Bergamo",
+   "url": "https://arena.choruslife.com/it/events/canto-libero-omaggio-a-battisti-e-mogol/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c86",
+   "title": "Le guerre persiane, con Marco Bettalli",
+   "cat": "corsi",
+   "start": "2027-01-23",
+   "place": "Teatro Donizetti, Bergamo · ore 11:00",
+   "desc": "Conferenza.",
+   "url": "https://www.teatrodonizetti.it/it/?taxonomy=&term=",
+   "stato": "controllato"
+  },
+  {
+   "id": "c87",
+   "title": "Come sorelle",
+   "cat": "ragazzi",
+   "start": "2027-01-24",
+   "place": "Teatro degli Storti, Alzano Lombardo · ore 16:30",
+   "desc": "Il Teatro delle Meraviglie, Pandemonium Teatro.",
+   "url": "https://www.pandemoniumteatro.org/il-teatro-delle-meraviglie-alzano/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c88",
+   "title": "Il bambino dai pollici verdi",
+   "cat": "ragazzi",
+   "start": "2027-01-24",
+   "place": "Teatro di Loreto, Bergamo · ore 16:30",
+   "desc": "Il Teatro delle Meraviglie, Pandemonium Teatro.",
+   "url": "https://www.pandemoniumteatro.org/il-teatro-delle-meraviglie-loreto/",
+   "stato": "controllato"
+  },
+  {
+   "id": "c89",
+   "title": "Vincenzo Schettini. Viaggio al centro della fisica",
+   "cat": "spettacoli",
+   "start": "2027-01-24",
+   "place": "ChorusLife Arena, Bergamo",
+   "url": "https://arena.choruslife.com/it/events/vincenzo-schettini-viaggio-al-centro-della-fisica-lo-spettacolo-della-conoscenza/",
+   "stato": "controllato"
   }
  ],
- "evidenza": "s1"
+ "evidenza": "m2"
 }
